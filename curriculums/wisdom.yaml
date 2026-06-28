@@ -1,0 +1,1394 @@
+subject: wisdom
+version: "1.0"
+estimated_lessons: 96
+reading_time_per_lesson: 15
+goal: >
+  become aware of the wisdom and help in building tips to navigate life
+outcomes:
+  - Distinguish wisdom from knowledge and information.
+  - Cultivate reflective practices that improve daily judgment.
+  - Recognize core values and align choices with them.
+  - Apply clear thinking and core mental models to real problems.
+  - Regulate emotions and develop character strengths.
+  - Communicate with clarity, empathy, and integrity.
+  - Make sound decisions under constraints and uncertainty.
+  - Manage risk with buffers, optionality, and feedback loops.
+  - Navigate ethical tensions with humility and rigor.
+  - Build resilience and learn effectively from failures.
+  - Maintain lifelong learning systems and communities of practice.
+  - Integrate principles into a coherent approach to a wise life.
+modules:
+  - id: M1
+    title: Foundations of Wisdom
+    lessons:
+      - id: SUBJECT-001
+        title: "What Is Wisdom?"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define wisdom and contrast it with knowledge and intelligence.
+          - Identify everyday contexts where wisdom is applicable.
+        mental_models:
+          - map-territory
+        prerequisites: []
+        tags:
+          - foundations
+          - definition
+        project: false
+      - id: SUBJECT-002
+        title: "Mindset and Humility"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain growth mindset and intellectual humility.
+          - Practice asking better questions to reduce overconfidence.
+        mental_models:
+          - growth mindset
+        prerequisites: []
+        tags:
+          - mindset
+          - humility
+        project: false
+      - id: SUBJECT-003
+        title: "Attention and Noticing"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Describe how attention shapes perception and choices.
+          - Use simple exercises to improve situational awareness.
+        mental_models:
+          - attention control
+        prerequisites: []
+        tags:
+          - attention
+          - awareness
+        project: false
+      - id: SUBJECT-004
+        title: "Reflection and Journaling"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Implement a brief daily reflection routine.
+          - Capture lessons learned to inform future actions.
+        mental_models:
+          - introspection loop
+        prerequisites: []
+        tags:
+          - reflection
+          - journaling
+        project: false
+      - id: SUBJECT-005
+        title: "Time Horizons"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare short-term and long-term thinking trade-offs.
+          - Identify choices that benefit from longer time horizons.
+        mental_models:
+          - intertemporal choice
+        prerequisites: []
+        tags:
+          - time
+          - trade-offs
+        project: false
+      - id: SUBJECT-006
+        title: "Causality Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish correlation from causation.
+          - Map simple cause-effect chains in daily life.
+        mental_models:
+          - cause and effect
+        prerequisites: []
+        tags:
+          - causality
+          - reasoning
+        project: false
+      - id: SUBJECT-007
+        title: "Uncertainty Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify knowns, unknowns, and assumptions in decisions.
+          - Use simple ranges instead of single-point estimates.
+        mental_models:
+          - knowns and unknowns
+        prerequisites: []
+        tags:
+          - uncertainty
+          - thinking
+        project: false
+      - id: SUBJECT-008
+        title: "Principles and Values"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Articulate 3–5 personal guiding principles.
+          - Link principles to recurring decisions you face.
+        mental_models:
+          - first principles
+        prerequisites: []
+        tags:
+          - values
+          - principles
+        project: false
+      - id: SUBJECT-009
+        title: "Signals vs Noise"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate between meaningful trends and random variation.
+          - Reduce overreaction to one-off events.
+        mental_models:
+          - signal-to-noise
+        prerequisites: []
+        tags:
+          - information
+          - noise
+        project: false
+      - id: SUBJECT-010
+        title: "Learning from Experience"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Close the loop between outcomes and updated practices.
+          - Create a simple after-action review template.
+        mental_models:
+          - feedback loops
+        prerequisites: []
+        tags:
+          - learning
+          - feedback
+        project: false
+  - id: M2
+    title: Self-Knowledge and Reflection
+    lessons:
+      - id: SUBJECT-011
+        title: "Self-Concept and Identity"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Map roles and narratives that shape self-concept.
+          - Identify identity assumptions that limit options.
+        mental_models:
+          - self-schema
+        prerequisites: []
+        tags:
+          - self
+          - identity
+        project: false
+      - id: SUBJECT-012
+        title: "Core Strengths and Limits"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Inventory strengths, weaknesses, and energy patterns.
+          - Align tasks with strengths while mitigating limits.
+        mental_models:
+          - comparative advantage
+        prerequisites: []
+        tags:
+          - strengths
+          - limits
+        project: false
+      - id: SUBJECT-013
+        title: "Motivations and Drives"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish intrinsic and extrinsic motivators.
+          - Design incentives that support wise behavior.
+        mental_models:
+          - incentives
+        prerequisites: []
+        tags:
+          - motivation
+          - behavior
+        project: false
+      - id: SUBJECT-014
+        title: "Habits and Automaticity"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Describe cue-routine-reward loops.
+          - Redesign a habit using small, consistent steps.
+        mental_models:
+          - habit loop
+        prerequisites: []
+        tags:
+          - habits
+          - behavior
+        project: false
+      - id: SUBJECT-015
+        title: "Cognitive Biases: Overview"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Recognize common biases that distort judgment.
+          - Use a checklist to slow down high-stakes decisions.
+        mental_models:
+          - bias checklist
+        prerequisites: []
+        tags:
+          - bias
+          - thinking
+        project: false
+      - id: SUBJECT-016
+        title: "Perception and Framing"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain how framing alters choices.
+          - Reframe a current challenge from multiple angles.
+        mental_models:
+          - framing
+        prerequisites: []
+        tags:
+          - perception
+          - framing
+        project: false
+      - id: SUBJECT-017
+        title: "Emotional Awareness"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Label emotional states accurately.
+          - Separate feelings, thoughts, and actions.
+        mental_models:
+          - affect labeling
+        prerequisites: []
+        tags:
+          - emotion
+          - awareness
+        project: false
+      - id: SUBJECT-018
+        title: "Values Clarification"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Prioritize values across life domains.
+          - Identify conflicts between stated and revealed values.
+        mental_models:
+          - utility
+        prerequisites: []
+        tags:
+          - values
+          - choice
+        project: false
+      - id: SUBJECT-019
+        title: "Boundaries and Agency"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish responsibilities that are yours vs others'.
+          - Practice scripts that reinforce healthy boundaries.
+        mental_models:
+          - locus of control
+        prerequisites: []
+        tags:
+          - agency
+          - boundaries
+        project: false
+      - id: SUBJECT-020
+        title: "Aligning Actions with Values"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Translate values into concrete implementation intentions.
+          - Create simple accountability mechanisms.
+        mental_models:
+          - implementation intentions
+        prerequisites: []
+        tags:
+          - values
+          - action
+        project: false
+  - id: M3
+    title: Thinking Clearly
+    lessons:
+      - id: SUBJECT-021
+        title: "Reasoning Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate deductive and inductive reasoning.
+          - Identify common logical fallacies.
+        mental_models:
+          - logic tree
+        prerequisites: []
+        tags:
+          - reasoning
+          - logic
+        project: false
+      - id: SUBJECT-022
+        title: "First Principles Thinking"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Break problems into fundamental components.
+          - Rebuild solutions from base constraints.
+        mental_models:
+          - first principles
+        prerequisites: []
+        tags:
+          - reduction
+          - reasoning
+        project: false
+      - id: SUBJECT-023
+        title: "Falsification and Testing"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Formulate disconfirming tests for beliefs.
+          - Avoid confirmation bias by seeking contrary evidence.
+        mental_models:
+          - hypothesis testing
+        prerequisites: []
+        tags:
+          - evidence
+          - science
+        project: false
+      - id: SUBJECT-024
+        title: "Base Rates and Reference Classes"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Use reference classes to improve forecasting.
+          - Combine base rates with specifics appropriately.
+        mental_models:
+          - base rate
+        prerequisites: []
+        tags:
+          - probability
+          - forecasting
+        project: false
+      - id: SUBJECT-025
+        title: "Opportunity Cost"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify trade-offs and foregone alternatives.
+          - Prioritize high-leverage actions.
+        mental_models:
+          - opportunity cost
+        prerequisites: []
+        tags:
+          - economics
+          - trade-offs
+        project: false
+      - id: SUBJECT-026
+        title: "Second-Order Effects"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Anticipate downstream consequences of actions.
+          - Differentiate immediate gains from long-term costs.
+        mental_models:
+          - second-order thinking
+        prerequisites: []
+        tags:
+          - systems
+          - consequences
+        project: false
+      - id: SUBJECT-027
+        title: "Inversion"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define the opposite failure state to reveal risks.
+          - Design prevention steps to avoid common errors.
+        mental_models:
+          - inversion
+        prerequisites: []
+        tags:
+          - problem-solving
+          - risk
+        project: false
+      - id: SUBJECT-028
+        title: "Occam's Razor and Parsimony"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Prefer simpler explanations when evidence is equal.
+          - Identify when simplicity becomes oversimplification.
+        mental_models:
+          - Occam's razor
+        prerequisites: []
+        tags:
+          - simplicity
+          - modeling
+        project: false
+      - id: SUBJECT-029
+        title: "Map and Territory"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish models from reality.
+          - Update models when they conflict with observations.
+        mental_models:
+          - map-territory
+        prerequisites: []
+        tags:
+          - models
+          - reality
+        project: false
+      - id: SUBJECT-030
+        title: "Calibration Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Estimate with ranges and confidence levels.
+          - Track calibration to improve forecasts.
+        mental_models:
+          - calibration
+        prerequisites: []
+        tags:
+          - forecasting
+          - confidence
+        project: false
+  - id: M4
+    title: Emotions and Character
+    lessons:
+      - id: SUBJECT-031
+        title: "Emotions: Regulation Fundamentals"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Apply breathing and reframing to regulate arousal.
+          - Separate triggers from chosen responses.
+        mental_models:
+          - reappraisal
+        prerequisites: []
+        tags:
+          - emotion
+          - regulation
+        project: false
+      - id: SUBJECT-032
+        title: "Character: Virtues in Daily Life"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define core virtues relevant to your context.
+          - Translate virtues into observable behaviors.
+        mental_models:
+          - virtue ethics
+        prerequisites: []
+        tags:
+          - character
+          - habits
+        project: false
+      - id: SUBJECT-033
+        title: "Empathy and Perspective-Taking"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Practice perspective-shifting in conversations.
+          - Identify limits of your own viewpoint.
+        mental_models:
+          - theory of mind
+        prerequisites: []
+        tags:
+          - empathy
+          - relationships
+        project: false
+      - id: SUBJECT-034
+        title: "Listening for Understanding"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use active listening techniques to reflect and clarify.
+          - Reduce misinterpretation in high-stakes talks.
+        mental_models:
+          - active listening
+        prerequisites: []
+        tags:
+          - communication
+          - listening
+        project: false
+      - id: SUBJECT-035
+        title: "Managing Triggers and Conflict"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify personal triggers and early warning signs.
+          - Apply pause and naming to de-escalate.
+        mental_models:
+          - stimulus-response gap
+        prerequisites: []
+        tags:
+          - conflict
+          - self-control
+        project: false
+      - id: SUBJECT-036
+        title: "Integrity and Trust"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Align commitments, actions, and follow-through.
+          - Repair trust using transparent processes.
+        mental_models:
+          - reputation effects
+        prerequisites: []
+        tags:
+          - trust
+          - ethics
+        project: false
+      - id: SUBJECT-037
+        title: "Courage and Prudence"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Balance bold action with risk-aware caution.
+          - Identify contexts demanding courage vs restraint.
+        mental_models:
+          - risk-reward
+        prerequisites: []
+        tags:
+          - courage
+          - prudence
+        project: false
+      - id: SUBJECT-038
+        title: "Patience and Timing"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Recognize when waiting improves outcomes.
+          - Leverage compounding by staying the course.
+        mental_models:
+          - compounding
+        prerequisites: []
+        tags:
+          - patience
+          - timing
+        project: false
+      - id: SUBJECT-039
+        title: "Gratitude and Contentment"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Counter hedonic adaptation with gratitude practices.
+          - Rebalance attention toward sufficiency.
+        mental_models:
+          - adaptation-level
+        prerequisites: []
+        tags:
+          - gratitude
+          - well-being
+        project: false
+      - id: SUBJECT-040
+        title: "Compassion with Boundaries"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Offer care without enabling harmful patterns.
+          - Use clear requests and limits in helping.
+        mental_models:
+          - assertiveness
+        prerequisites: []
+        tags:
+          - compassion
+          - boundaries
+        project: false
+  - id: M5
+    title: Relationships and Communication
+    lessons:
+      - id: SUBJECT-041
+        title: "Communication Foundations"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Structure messages for clarity and relevance.
+          - Match medium and tone to purpose.
+        mental_models:
+          - communication loop
+        prerequisites: []
+        tags:
+          - communication
+          - clarity
+        project: false
+      - id: SUBJECT-042
+        title: "Nonviolent Communication Basics"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Separate observations, feelings, needs, and requests.
+          - Make specific, doable requests that invite collaboration.
+        mental_models:
+          - NVC model
+        prerequisites: []
+        tags:
+          - communication
+          - conflict
+        project: false
+      - id: SUBJECT-043
+        title: "Saying No Gracefully"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Decline requests while preserving relationships.
+          - Use boundary scripts for recurring asks.
+        mental_models:
+          - assertiveness
+        prerequisites: []
+        tags:
+          - boundaries
+          - communication
+        project: false
+      - id: SUBJECT-044
+        title: "Giving and Receiving Feedback"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use behavior-impact formats to depersonalize critique.
+          - Solicit feedback to reduce blind spots.
+        mental_models:
+          - SBI model
+        prerequisites: []
+        tags:
+          - feedback
+          - communication
+        project: false
+      - id: SUBJECT-045
+        title: "Negotiation Fundamentals"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Clarify interests and alternatives before negotiating.
+          - Expand value through trades and options.
+        mental_models:
+          - BATNA
+        prerequisites: []
+        tags:
+          - negotiation
+          - interests
+        project: false
+      - id: SUBJECT-046
+        title: "Collaboration and Team Wisdom"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Reduce groupthink and improve collective judgment.
+          - Structure meetings for learning and decisions.
+        mental_models:
+          - collective intelligence
+        prerequisites: []
+        tags:
+          - teams
+          - collaboration
+        project: false
+      - id: SUBJECT-047
+        title: "Influence without Manipulation"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Build trust and reciprocity ethically.
+          - Use commitment devices aligned with shared values.
+        mental_models:
+          - reciprocity
+        prerequisites: []
+        tags:
+          - influence
+          - ethics
+        project: false
+      - id: SUBJECT-048
+        title: "Social Norms and Culture"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify explicit and implicit rules shaping behavior.
+          - Shift norms through small, repeated signals.
+        mental_models:
+          - norms
+        prerequisites: []
+        tags:
+          - culture
+          - behavior
+        project: false
+      - id: SUBJECT-049
+        title: "Difficult Conversations"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Prepare curiosity-first openings for tense topics.
+          - Separate facts, stories, and intent.
+        mental_models:
+          - steel-manning
+        prerequisites: []
+        tags:
+          - conversation
+          - conflict
+        project: false
+      - id: SUBJECT-050
+        title: "Bridging Differences"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Find shared meaning across divides.
+          - Use small-scale joint projects to build trust.
+        mental_models:
+          - charitable interpretation
+        prerequisites: []
+        tags:
+          - polarization
+          - dialogue
+        project: false
+  - id: M6
+    title: Decision-Making and Judgment
+    lessons:
+      - id: SUBJECT-051
+        title: "Structuring Decisions"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Frame decisions with clear scope and boundaries.
+          - Separate decision quality from outcome luck.
+        mental_models:
+          - decision tree
+        prerequisites: []
+        tags:
+          - decision
+          - structure
+        project: false
+      - id: SUBJECT-052
+        title: "Clarifying Objectives and Constraints"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Translate values into measurable criteria.
+          - Identify hard constraints vs preferences.
+        mental_models:
+          - multi-criteria decision making
+        prerequisites: []
+        tags:
+          - objectives
+          - constraints
+        project: false
+      - id: SUBJECT-053
+        title: "Generating Options"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Produce multiple viable alternatives before choosing.
+          - Use divergent then convergent thinking phases.
+        mental_models:
+          - design thinking
+        prerequisites: []
+        tags:
+          - options
+          - creativity
+        project: false
+      - id: SUBJECT-054
+        title: "Estimating and Guesstimation"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Break down complex estimates into parts.
+          - Cross-check estimates with sanity checks.
+        mental_models:
+          - Fermi estimation
+        prerequisites: []
+        tags:
+          - estimation
+          - numbers
+        project: false
+      - id: SUBJECT-055
+        title: "Heuristics: When They Help"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify contexts where simple rules outperform analysis.
+          - Apply satisficing to speed low-stakes choices.
+        mental_models:
+          - satisficing
+        prerequisites: []
+        tags:
+          - heuristics
+          - efficiency
+        project: false
+      - id: SUBJECT-056
+        title: "Heuristics: When They Hurt"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Recognize bias-driven errors in judgment.
+          - Implement guardrails for high-stakes decisions.
+        mental_models:
+          - availability bias
+        prerequisites: []
+        tags:
+          - bias
+          - pitfalls
+        project: false
+      - id: SUBJECT-057
+        title: "Pre-mortems and Red Teaming"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Anticipate failure modes before committing.
+          - Integrate adversarial reviews into planning.
+        mental_models:
+          - pre-mortem
+        prerequisites: []
+        tags:
+          - risk
+          - planning
+        project: false
+      - id: SUBJECT-058
+        title: "Testing Small: Experiments"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Design small tests to reduce uncertainty.
+          - Use control and treatment comparisons appropriately.
+        mental_models:
+          - A/B testing
+        prerequisites: []
+        tags:
+          - experiments
+          - learning
+        project: false
+      - id: SUBJECT-059
+        title: "Committing and Reviewing"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use decision logs to track rationale and updates.
+          - Cycle through observe-orient-decide-act quickly.
+        mental_models:
+          - OODA loop
+        prerequisites: []
+        tags:
+          - feedback
+          - execution
+        project: false
+      - id: SUBJECT-060
+        title: "Ethical Decision-Making"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare outcomes, duties, and virtues in decisions.
+          - Use pre-commitments to avoid ethical drift.
+        mental_models:
+          - veil of ignorance
+        prerequisites: []
+        tags:
+          - ethics
+          - decisions
+        project: false
+  - id: M7
+    title: Uncertainty and Risk
+    lessons:
+      - id: SUBJECT-061
+        title: "Probability Refresh"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Update beliefs as evidence arrives.
+          - Avoid base-rate neglect in assessments.
+        mental_models:
+          - Bayesian updating
+        prerequisites: []
+        tags:
+          - probability
+          - uncertainty
+        project: false
+      - id: SUBJECT-062
+        title: "Signals, Forecasts, and Scenarios"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Build scenario ranges with leading indicators.
+          - Distinguish forecasting from planning.
+        mental_models:
+          - scenario planning
+        prerequisites: []
+        tags:
+          - forecasting
+          - planning
+        project: false
+      - id: SUBJECT-063
+        title: "Risk: Likelihood vs Impact"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Map risks on probability-impact grids.
+          - Prioritize mitigations with the highest payoff.
+        mental_models:
+          - risk matrix
+        prerequisites: []
+        tags:
+          - risk
+          - assessment
+        project: false
+      - id: SUBJECT-064
+        title: "Fat Tails and Extremes"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify domains with power-law behavior.
+          - Adjust plans for rare but severe events.
+        mental_models:
+          - power laws
+        prerequisites: []
+        tags:
+          - extremes
+          - risk
+        project: false
+      - id: SUBJECT-065
+        title: "Optionality and Flexibility"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create reversible options to learn cheaply.
+          - Preserve upside while limiting downside.
+        mental_models:
+          - option value
+        prerequisites: []
+        tags:
+          - optionality
+          - strategy
+        project: false
+      - id: SUBJECT-066
+        title: "Antifragility Basics"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Distinguish fragile, robust, and antifragile systems.
+          - Introduce small stressors to build capacity.
+        mental_models:
+          - antifragility
+        prerequisites: []
+        tags:
+          - resilience
+          - stressors
+        project: false
+      - id: SUBJECT-067
+        title: "Buffers and Margins of Safety"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Calculate buffers for time, money, and energy.
+          - Use redundancy to prevent single points of failure.
+        mental_models:
+          - margin of safety
+        prerequisites: []
+        tags:
+          - safety
+          - robustness
+        project: false
+      - id: SUBJECT-068
+        title: "Systems and Feedback Under Uncertainty"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify reinforcing and balancing feedback loops.
+          - Avoid interventions that backfire under uncertainty.
+        mental_models:
+          - systems thinking
+        prerequisites: []
+        tags:
+          - systems
+          - uncertainty
+        project: false
+      - id: SUBJECT-069
+        title: "Adapting Plans as Reality Changes"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Set trigger points to pivot or persist.
+          - Iterate using short planning cycles.
+        mental_models:
+          - adaptive planning
+        prerequisites: []
+        tags:
+          - adaptation
+          - iteration
+        project: false
+  - id: M8
+    title: Purpose, Values, and Ethics
+    lessons:
+      - id: SUBJECT-070
+        title: "Clarifying Purpose"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Draft a purpose statement grounded in strengths and service.
+          - Identify experiments to test fit and meaning.
+        mental_models:
+          - ikigai
+        prerequisites: []
+        tags:
+          - purpose
+          - values
+        project: false
+      - id: SUBJECT-071
+        title: "Value Conflicts and Trade-offs"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Surface and rank conflicting values explicitly.
+          - Explore Pareto-improving options before trading off.
+        mental_models:
+          - pareto frontier
+        prerequisites: []
+        tags:
+          - trade-offs
+          - values
+        project: false
+      - id: SUBJECT-072
+        title: "Meaning, Suffering, and Growth"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Reframe adversity as a source of meaning.
+          - Identify supports that enable post-traumatic growth.
+        mental_models:
+          - logotherapy
+        prerequisites: []
+        tags:
+          - meaning
+          - growth
+        project: false
+      - id: SUBJECT-073
+        title: "Ethical Frameworks in Tension"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Compare consequentialist, deontological, and virtue views.
+          - Analyze cases where frameworks yield different answers.
+        mental_models:
+          - pluralism
+        prerequisites: []
+        tags:
+          - ethics
+          - frameworks
+        project: false
+      - id: SUBJECT-074
+        title: "Moral Uncertainty and Decision-Making"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Weigh actions under competing moral theories.
+          - Use robustness and regret minimization in ethics.
+        mental_models:
+          - moral uncertainty
+        prerequisites: []
+        tags:
+          - ethics
+          - uncertainty
+        project: false
+      - id: SUBJECT-075
+        title: "Power, Responsibility, and Influence"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Map power dynamics and duties of stewardship.
+          - Set guardrails to prevent abuse of influence.
+        mental_models:
+          - stewardship
+        prerequisites: []
+        tags:
+          - power
+          - responsibility
+        project: false
+      - id: SUBJECT-076
+        title: "Justice, Fairness, and Compassion"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Evaluate policies using fairness criteria.
+          - Balance mercy with accountability.
+        mental_models:
+          - fairness criteria
+        prerequisites: []
+        tags:
+          - justice
+          - fairness
+        project: false
+      - id: SUBJECT-077
+        title: "Steering Complex Systems"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify leverage points for systemic change.
+          - Avoid policy resistance and unintended effects.
+        mental_models:
+          - leverage points
+        prerequisites: []
+        tags:
+          - systems
+          - change
+        project: false
+      - id: SUBJECT-078
+        title: "Wisdom in Leadership"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Integrate judgment, empathy, and foresight in leadership.
+          - Design rituals and norms that scale wise behavior.
+        mental_models:
+          - servant leadership
+        prerequisites: []
+        tags:
+          - leadership
+          - wisdom
+        project: false
+  - id: M9
+    title: Resilience and Adaptation
+    lessons:
+      - id: SUBJECT-079
+        title: "Stress Responses and Recovery"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Recognize acute vs chronic stress patterns.
+          - Apply recovery protocols to restore capacity.
+        mental_models:
+          - stress inoculation
+        prerequisites: []
+        tags:
+          - stress
+          - recovery
+        project: false
+      - id: SUBJECT-080
+        title: "Resilience: Personal Practices"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build a personal resilience toolkit.
+          - Schedule regular resilience training cycles.
+        mental_models:
+          - resilience toolkit
+        prerequisites: []
+        tags:
+          - resilience
+          - habits
+        project: false
+      - id: SUBJECT-081
+        title: "Coping with Loss and Uncertainty"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Navigate grief with supportive structures.
+          - Maintain function during ambiguous loss.
+        mental_models:
+          - grief process
+        prerequisites: []
+        tags:
+          - loss
+          - uncertainty
+        project: false
+      - id: SUBJECT-082
+        title: "Failing Well and Learning Fast"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Normalize intelligent failure and rapid iteration.
+          - Conduct effective after-action reviews.
+        mental_models:
+          - after-action review
+        prerequisites: []
+        tags:
+          - failure
+          - learning
+        project: false
+      - id: SUBJECT-083
+        title: "Sustainable Energy and Focus"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Manage attention and energy throughout the day.
+          - Design schedules that respect biological rhythms.
+        mental_models:
+          - ultradian rhythm
+        prerequisites: []
+        tags:
+          - energy
+          - focus
+        project: false
+      - id: SUBJECT-084
+        title: "Designing Environments for Wisdom"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Shape defaults and cues that promote wise choices.
+          - Reduce friction for desired behaviors.
+        mental_models:
+          - choice architecture
+        prerequisites: []
+        tags:
+          - environment
+          - design
+        project: false
+      - id: SUBJECT-085
+        title: "Long-Term Projects and Grit"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Maintain motivation through plateaus and setbacks.
+          - Use milestones and feedback to sustain momentum.
+        mental_models:
+          - goal gradients
+        prerequisites: []
+        tags:
+          - grit
+          - goals
+        project: false
+      - id: SUBJECT-086
+        title: "Complex Trade-offs and Compromise"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Navigate multi-stakeholder negotiations.
+          - Balance conflicting objectives transparently.
+        mental_models:
+          - multi-objective optimization
+        prerequisites: []
+        tags:
+          - trade-offs
+          - negotiation
+        project: false
+      - id: SUBJECT-087
+        title: "Navigating Life Transitions"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan and execute life transitions with resilience.
+          - Leverage identity shifts as opportunities for growth.
+        mental_models:
+          - life portfolio
+        prerequisites: []
+        tags:
+          - transitions
+          - change
+        project: false
+  - id: M10
+    title: Lifelong Learning and Legacy
+    lessons:
+      - id: SUBJECT-088
+        title: "Metacognition and Self-Calibration"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Monitor and adjust your own thinking processes.
+          - Use confidence checks to reduce error.
+        mental_models:
+          - metacognition
+        prerequisites: []
+        tags:
+          - learning
+          - calibration
+        project: false
+      - id: SUBJECT-089
+        title: "Building a Personal Knowledge System"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Capture, connect, and create from notes effectively.
+          - Maintain a system you trust over years.
+        mental_models:
+          - second brain
+        prerequisites: []
+        tags:
+          - knowledge
+          - system
+        project: false
+      - id: SUBJECT-090
+        title: "Choosing Mentors and Communities"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify mentors with aligned values and strengths.
+          - Contribute to communities that elevate wisdom.
+        mental_models:
+          - wise social proof
+        prerequisites: []
+        tags:
+          - mentors
+          - community
+        project: false
+      - id: SUBJECT-091
+        title: "Teaching as a Path to Mastery"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use teaching to reveal gaps in understanding.
+          - Design teach-back moments in daily work.
+        mental_models:
+          - learning by teaching
+        prerequisites: []
+        tags:
+          - teaching
+          - mastery
+        project: false
+      - id: SUBJECT-092
+        title: "Crafting Principles and Policies"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Translate lessons into durable personal policies.
+          - Test policies and refine through experience.
+        mental_models:
+          - policy design
+        prerequisites: []
+        tags:
+          - principles
+          - policies
+        project: false
+      - id: SUBJECT-093
+        title: "Rituals, Habits, and Identity"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Align rituals with identity-based habits.
+          - Create environmental cues that sustain change.
+        mental_models:
+          - habit stacking
+        prerequisites: []
+        tags:
+          - rituals
+          - identity
+        project: false
+      - id: SUBJECT-094
+        title: "Legacy and Stewardship"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Define the impact you want to leave.
+          - Align present choices with long-term stewardship.
+        mental_models:
+          - legacy thinking
+        prerequisites: []
+        tags:
+          - legacy
+          - stewardship
+        project: false
+      - id: SUBJECT-095
+        title: "Balancing Ambition and Acceptance"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Hold goals lightly while acting decisively.
+          - Practice equanimity amid outcomes you cannot control.
+        mental_models:
+          - equanimity
+        prerequisites: []
+        tags:
+          - ambition
+          - acceptance
+        project: false
+      - id: SUBJECT-096
+        title: "Integrative Capstone: A Wise Life"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Synthesize principles into a personal wisdom playbook.
+          - Commit to experiments that reinforce a wise life.
+        mental_models:
+          - synthesis
+        prerequisites: []
+        tags:
+          - integration
+          - capstone
+        project: false

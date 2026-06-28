@@ -1,0 +1,1778 @@
+subject: film-photography
+version: "1.0"
+estimated_lessons: 96
+reading_time_per_lesson: 15
+goal: >
+  become a good film photographer who can develop his whole film
+outcomes:
+  - Expose consistently in manual mode using metering strategies for varied lighting.
+  - Choose appropriate film stocks, lenses, and filters to achieve specific creative intents.
+  - Plan shoots, bracket intelligently, and maintain a reliable, organized workflow.
+  - Safely mix, handle, and dispose of photographic chemicals and manage darkroom safety.
+  - Develop black-and-white, C-41 color negative, and E-6 slide films to repeatable standards.
+  - Scan negatives effectively, manage color, and perform non-destructive digital cleanup.
+  - Make archival-quality black-and-white darkroom prints and basic RA-4 color prints.
+  - Troubleshoot exposure, development, and printing issues using systematic tests.
+  - Sequence, present, and archive negatives and prints for longevity and impact.
+  - Produce a cohesive body of work from capture through development, print/scan, and presentation.
+modules:
+  - id: M1
+    title: "Foundations of Film Photography"
+    lessons:
+      - id: SUBJECT-001
+        title: "Welcome to Film Photography: How Film Works"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain how light-sensitive emulsions record images.
+          - Compare film and digital capture at a high level.
+          - Identify the parts of a 35mm and 120 film roll.
+        mental_models:
+          - "light-to-emulsion pipeline"
+          - "negative-positive thinking"
+        prerequisites: []
+        tags:
+          - fundamentals
+          - film
+          - emulsion
+          - analog
+        project: false
+      - id: SUBJECT-002
+        title: "Camera Types: SLR, Rangefinder, Point-and-Shoot, TLR"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate common film camera types and their strengths.
+          - Choose a camera type aligned with subject and style.
+          - Operate basic controls: shutter, aperture, ISO setting.
+        mental_models:
+          - "form-follows-function"
+          - "tool-fit-for-task"
+        prerequisites:
+          - "SUBJECT-001"
+        tags:
+          - cameras
+          - slr
+          - rangefinder
+          - tlr
+        project: false
+      - id: SUBJECT-003
+        title: "Loading and Unloading 35mm and 120 Film"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Load and unload 35mm and 120 film safely.
+          - Prevent light leaks and handling damage.
+          - Implement a simple checklist for film handling.
+        mental_models:
+          - "checklists"
+          - "error-proofing (poka-yoke)"
+        prerequisites:
+          - "SUBJECT-002"
+        tags:
+          - film-handling
+          - workflow
+          - safety
+        project: false
+      - id: SUBJECT-004
+        title: "The Exposure Triangle for Film"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define the relationship between shutter, aperture, and ISO.
+          - Predict how changes affect motion blur and depth of field.
+          - Apply Sunny 16 as a fallback exposure method.
+        mental_models:
+          - "exposure triangle"
+          - "trade-offs"
+        prerequisites:
+          - "SUBJECT-003"
+        tags:
+          - exposure
+          - shutter
+          - aperture
+          - iso
+        project: false
+      - id: SUBJECT-005
+        title: "ISO, Film Speed, and Latitude"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish box speed vs effective speed.
+          - Describe exposure latitude for negative vs slide film.
+          - Rate film for desired contrast and grain.
+        mental_models:
+          - "tolerance bands"
+          - "robust vs brittle systems"
+        prerequisites:
+          - "SUBJECT-004"
+        tags:
+          - iso
+          - latitude
+          - film-stocks
+        project: false
+      - id: SUBJECT-006
+        title: "Focusing Basics and Depth of Field"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Use focus scales and split-image/rangefinder aids.
+          - Estimate depth of field at common focal lengths.
+          - Apply hyperfocal focusing for street/landscape.
+        mental_models:
+          - "hyperfocal distance"
+          - "zone focusing"
+        prerequisites:
+          - "SUBJECT-005"
+        tags:
+          - focus
+          - dof
+          - lenses
+        project: false
+      - id: SUBJECT-007
+        title: "Metering Basics: Incident vs Reflected"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare incident and reflected metering.
+          - Meter typical mid-tone scenes accurately.
+          - Compensate for backlight and snow/sand scenes.
+        mental_models:
+          - "18% gray anchor"
+          - "bias and compensation"
+        prerequisites:
+          - "SUBJECT-006"
+        tags:
+          - metering
+          - light-meter
+          - exposure
+        project: false
+      - id: SUBJECT-008
+        title: "Composition Essentials for Film Shots"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Apply rule of thirds, leading lines, and framing.
+          - Simplify scenes to reduce visual noise.
+          - Anticipate composition constraints of fixed frame counts.
+        mental_models:
+          - "signal-to-noise"
+          - "figure-ground"
+        prerequisites:
+          - "SUBJECT-007"
+        tags:
+          - composition
+          - framing
+          - creativity
+        project: false
+      - id: SUBJECT-009
+        title: "Project: Shoot Your First Roll"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Plan and expose a complete roll with notes.
+          - Apply metering and composition basics in the field.
+          - Log settings to enable later evaluation.
+        mental_models:
+          - "plan-do-review"
+          - "feedback loops"
+        prerequisites:
+          - "SUBJECT-008"
+        tags:
+          - project
+          - fieldwork
+          - workflow
+        project: true
+  - id: M2
+    title: "Film, Lenses, and Exposure Control"
+    lessons:
+      - id: SUBJECT-010
+        title: "Choosing Film Stocks: B&W, Color Negative, Slide"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Match film stock to lighting and subject.
+          - Predict contrast and color tendencies of popular films.
+          - Create a short list of go-to stocks.
+        mental_models:
+          - "constraints first"
+          - "horses for courses"
+        prerequisites:
+          - "SUBJECT-009"
+        tags:
+          - film-stocks
+          - bw
+          - color
+        project: false
+      - id: SUBJECT-011
+        title: "Understanding Grain, Contrast, and Color Palette"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Relate ISO to grain and contrast.
+          - Identify palette shifts across film families.
+          - Choose stock based on desired mood.
+        mental_models:
+          - "cause and effect"
+          - "aesthetic trade-offs"
+        prerequisites:
+          - "SUBJECT-010"
+        tags:
+          - grain
+          - contrast
+          - color
+        project: false
+      - id: SUBJECT-012
+        title: "Lenses for Film: Focal Lengths and Characteristics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare perspective and compression across focal lengths.
+          - Select primes vs zooms for film bodies.
+          - Use lens charts and MTF basics to inform choices.
+        mental_models:
+          - "field of view"
+          - "tool-chain limits"
+        prerequisites:
+          - "SUBJECT-011"
+        tags:
+          - lenses
+          - focal-length
+          - optics
+        project: false
+      - id: SUBJECT-013
+        title: "Shutter Speed Mastery: Motion and Camera Shake"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Choose shutter speeds to freeze or blur motion.
+          - Apply reciprocal rule for handholding.
+          - Use panning for dynamic movement.
+        mental_models:
+          - "reciprocal rule"
+          - "motion budget"
+        prerequisites:
+          - "SUBJECT-012"
+        tags:
+          - shutter
+          - action
+          - technique
+        project: false
+      - id: SUBJECT-014
+        title: "Aperture Mastery: Depth and Sharpness"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Balance diffraction vs sharpness across apertures.
+          - Control subject isolation with depth of field.
+          - Use aperture priority effectively on compatible bodies.
+        mental_models:
+          - "sweet spot"
+          - "foreground-background balance"
+        prerequisites:
+          - "SUBJECT-013"
+        tags:
+          - aperture
+          - dof
+          - sharpness
+        project: false
+      - id: SUBJECT-015
+        title: "Controlling Exposure with EV and Compensation"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Use exposure compensation to protect highlights or shadows.
+          - Understand EV steps and bracketing logic.
+          - Record compensation decisions in a shoot log.
+        mental_models:
+          - "incremental control"
+          - "risk management"
+        prerequisites:
+          - "SUBJECT-014"
+        tags:
+          - exposure
+          - ev
+          - bracketing
+        project: false
+      - id: SUBJECT-016
+        title: "Filters 101: UV, Polarizer, Yellow/Orange/Red"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Select basic filters for B&W and color film.
+          - Calculate filter factors and adjust exposure.
+          - Avoid polarization artifacts and vignetting.
+        mental_models:
+          - "input shaping"
+          - "cost of complexity"
+        prerequisites:
+          - "SUBJECT-015"
+        tags:
+          - filters
+          - polarizer
+          - bw
+        project: false
+      - id: SUBJECT-017
+        title: "Natural Light: Golden Hour, Overcast, Shade"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Adapt metering to changing daylight conditions.
+          - Position subjects for flattering light and contrast.
+          - Use reflectors or bounce to shape natural light.
+        mental_models:
+          - "quality of light"
+          - "angle of incidence"
+        prerequisites:
+          - "SUBJECT-016"
+        tags:
+          - natural-light
+          - portrait
+          - landscape
+        project: false
+      - id: SUBJECT-018
+        title: "Reciprocity Basics and Low-Light Strategies"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define reciprocity failure and its effects.
+          - Apply manufacturer reciprocity charts.
+          - Stabilize low-light shots with support and timers.
+        mental_models:
+          - "time-intensity trade-off"
+          - "failure curves"
+        prerequisites:
+          - "SUBJECT-017"
+        tags:
+          - reciprocity
+          - low-light
+          - exposure
+        project: false
+      - id: SUBJECT-019
+        title: "Project: Exposure Studies in Varied Light"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Execute bracketed sequences across lighting scenarios.
+          - Analyze negatives or scans to select optimal exposure.
+          - Update personal exposure reference notes.
+        mental_models:
+          - "test-and-learn"
+          - "comparative evaluation"
+        prerequisites:
+          - "SUBJECT-018"
+        tags:
+          - project
+          - exposure
+          - fieldwork
+        project: true
+  - id: M3
+    title: "Workflow and Fieldcraft Essentials"
+    lessons:
+      - id: SUBJECT-020
+        title: "Planning a Shoot and Keeping a Photo Notebook"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Build a repeatable pre-shoot checklist.
+          - Maintain shot logs with exposure and intent.
+          - Organize negatives and contact sheets.
+        mental_models:
+          - "workflow pipeline"
+          - "external memory"
+        prerequisites:
+          - "SUBJECT-019"
+        tags:
+          - workflow
+          - planning
+          - organization
+        project: false
+      - id: SUBJECT-021
+        title: "Bracketing and Test Shots on Film"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Design efficient bracketing to minimize waste.
+          - Use gray cards and test frames strategically.
+          - Interpret results to refine future exposure.
+        mental_models:
+          - "sampling"
+          - "feedback loops"
+        prerequisites:
+          - "SUBJECT-020"
+        tags:
+          - bracketing
+          - testing
+          - exposure
+        project: false
+      - id: SUBJECT-022
+        title: "Tripods, Cable Releases, and Stability"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Choose tripod/head combinations for stability.
+          - Use cable releases and self-timers to avoid shake.
+          - Set up safely in crowded or uneven environments.
+        mental_models:
+          - "weakest-link"
+          - "mechanical isolation"
+        prerequisites:
+          - "SUBJECT-021"
+        tags:
+          - support
+          - tripod
+          - technique
+        project: false
+      - id: SUBJECT-023
+        title: "Intro to Flash with Film"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Understand guide numbers and manual flash power.
+          - Sync shutters safely; avoid high-voltage triggers.
+          - Bounce and diffuse for softer light.
+        mental_models:
+          - "inverse square law"
+          - "energy budget"
+        prerequisites:
+          - "SUBJECT-022"
+        tags:
+          - flash
+          - lighting
+          - exposure
+        project: false
+      - id: SUBJECT-024
+        title: "Field Etiquette, Safety, and Legal Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Respect privacy, property, and local laws.
+          - Work safely around traffic, water, and crowds.
+          - Use releases and permits where required.
+        mental_models:
+          - "risk assessment"
+          - "do no harm"
+        prerequisites:
+          - "SUBJECT-023"
+        tags:
+          - ethics
+          - safety
+          - legal
+        project: false
+      - id: SUBJECT-025
+        title: "Caring for Cameras, Lenses, and Film"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Clean optics and viewfinders properly.
+          - Store film to maintain freshness and stability.
+          - Prevent fungus, corrosion, and light leaks.
+        mental_models:
+          - "preventive maintenance"
+          - "storage environment"
+        prerequisites:
+          - "SUBJECT-024"
+        tags:
+          - maintenance
+          - gear
+          - storage
+        project: false
+      - id: SUBJECT-026
+        title: "Lab vs Home Development: Process Overview"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare turnaround, cost, and control trade-offs.
+          - Understand lab order forms and push/pull requests.
+          - Decide when to DIY vs outsource.
+        mental_models:
+          - "build vs buy"
+          - "control vs convenience"
+        prerequisites:
+          - "SUBJECT-025"
+        tags:
+          - labs
+          - development
+          - workflow
+        project: false
+      - id: SUBJECT-027
+        title: "Evaluating Negatives and Contact Sheets (Overview)"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Read density and contrast on negatives.
+          - Use contact sheets for edit decisions.
+          - Link exposure notes to negative evaluation.
+        mental_models:
+          - "evidence-based decisions"
+          - "negative as data"
+        prerequisites:
+          - "SUBJECT-026"
+        tags:
+          - negatives
+          - contacts
+          - editing
+        project: false
+      - id: SUBJECT-028
+        title: "Project: Themed Roll with Intent"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define a theme and shot list.
+          - Execute a roll with consistent exposure and composition.
+          - Prepare for development or lab submission.
+        mental_models:
+          - "constraint-driven creativity"
+          - "shot discipline"
+        prerequisites:
+          - "SUBJECT-027"
+        tags:
+          - project
+          - fieldwork
+          - storytelling
+        project: true
+  - id: M4
+    title: "Black-and-White Development at Home"
+    lessons:
+      - id: SUBJECT-029
+        title: "Setting Up a Home Darkroom or Changing Bag Workflow"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify required equipment and light-safe spaces.
+          - Create a dry and wet workflow layout.
+          - Establish safety and cleanup routines.
+        mental_models:
+          - "workcell design"
+          - "5S organization"
+        prerequisites:
+          - "SUBJECT-028"
+        tags:
+          - darkroom
+          - setup
+          - safety
+        project: false
+      - id: SUBJECT-030
+        title: "B&W Chemistry: Developers, Stop, Fixer, and Wash Aids"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Mix common developers and working solutions.
+          - Choose stop and fixer types and dilutions.
+          - Track capacity and exhaustion.
+        mental_models:
+          - "stoichiometry lite"
+          - "capacity management"
+        prerequisites:
+          - "SUBJECT-029"
+        tags:
+          - chemistry
+          - bw
+          - development
+        project: false
+      - id: SUBJECT-031
+        title: "Time, Temperature, and Agitation Principles"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain how time/temp/agitation influence contrast and grain.
+          - Use datasheets and Massive Dev Chart confidently.
+          - Standardize a personal development baseline.
+        mental_models:
+          - "process control"
+          - "input-output mapping"
+        prerequisites:
+          - "SUBJECT-030"
+        tags:
+          - time
+          - temperature
+          - agitation
+        project: false
+      - id: SUBJECT-032
+        title: "Loading Film onto Reels (35mm and 120)"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Practice reel loading in daylight and in the dark.
+          - Identify and fix common loading problems.
+          - Choose plastic vs stainless reels appropriately.
+        mental_models:
+          - "muscle memory"
+          - "error traps"
+        prerequisites:
+          - "SUBJECT-031"
+        tags:
+          - reels
+          - loading
+          - darkroom
+        project: false
+      - id: SUBJECT-033
+        title: "Development Workflow: From Pre-Soak to Final Rinse"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Execute a complete development sequence step-by-step.
+          - Time and agitate consistently for even negatives.
+          - Record variables for reproducibility.
+        mental_models:
+          - "standard operating procedure"
+          - "repeatability"
+        prerequisites:
+          - "SUBJECT-032"
+        tags:
+          - workflow
+          - development
+          - bw
+        project: false
+      - id: SUBJECT-034
+        title: "Stop, Fix, Hypo Clear, and Archival Wash"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Choose stop bath vs water stop.
+          - Test fixer with clip tests and clearing times.
+          - Wash to archival standards for longevity.
+        mental_models:
+          - "verification steps"
+          - "failure prevention"
+        prerequisites:
+          - "SUBJECT-033"
+        tags:
+          - fixer
+          - washing
+          - archival
+        project: false
+      - id: SUBJECT-035
+        title: "Drying, Dust Control, and Handling Negatives"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Set up dust-minimized drying spaces.
+          - Use wetting agents and squeegees properly.
+          - Cut, sleeve, and label negatives safely.
+        mental_models:
+          - "environment control"
+          - "end-of-line quality"
+        prerequisites:
+          - "SUBJECT-034"
+        tags:
+          - drying
+          - dust
+          - handling
+        project: false
+      - id: SUBJECT-036
+        title: "Troubleshooting B&W Development"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Diagnose streaks, bromide drag, and uneven density.
+          - Correct thin or dense negatives via process tweaks.
+          - Build a troubleshooting flowchart.
+        mental_models:
+          - "root-cause analysis"
+          - "check-adjust cycle"
+        prerequisites:
+          - "SUBJECT-035"
+        tags:
+          - troubleshooting
+          - bw
+          - quality
+        project: false
+      - id: SUBJECT-037
+        title: "Safety, Disposal, and Chemical Storage"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Store chemicals safely with proper labeling.
+          - Dispose according to local regulations.
+          - Mitigate exposure risks via PPE and ventilation.
+        mental_models:
+          - "safety first"
+          - "hazard control hierarchy"
+        prerequisites:
+          - "SUBJECT-036"
+        tags:
+          - safety
+          - chemicals
+          - disposal
+        project: false
+      - id: SUBJECT-038
+        title: "Project: Develop Your First B&W Roll at Home"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Develop a roll to completion with notes on variables.
+          - Evaluate negatives against baseline targets.
+          - Reflect on improvements for next run.
+        mental_models:
+          - "pilot run"
+          - "closed-loop feedback"
+        prerequisites:
+          - "SUBJECT-037"
+        tags:
+          - project
+          - bw
+          - development
+        project: true
+  - id: M5
+    title: "Scanning and Basic Darkroom Printing"
+    lessons:
+      - id: SUBJECT-039
+        title: "Contact Sheets: Selection and Evaluation"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Produce contact sheets by scan or enlarger.
+          - Mark selects and exposure notes efficiently.
+          - Prioritize frames for printing.
+        mental_models:
+          - "coarse-to-fine selection"
+          - "evidence map"
+        prerequisites:
+          - "SUBJECT-038"
+        tags:
+          - contact-sheet
+          - editing
+          - selection
+        project: false
+      - id: SUBJECT-040
+        title: "Scanning Fundamentals: DPI, Bit Depth, and File Types"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Choose scan settings for intended output.
+          - Organize files and backups systematically.
+          - Export archival and working copies.
+        mental_models:
+          - "fit for purpose"
+          - "data hygiene"
+        prerequisites:
+          - "SUBJECT-039"
+        tags:
+          - scanning
+          - dpi
+          - workflow
+        project: false
+      - id: SUBJECT-041
+        title: "Flatbed vs DSLR Scanning Rigs"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare speed, quality, and cost trade-offs.
+          - Align film, light sources, and camera for DSLR scans.
+          - Minimize Newton rings and reflections.
+        mental_models:
+          - "systems comparison"
+          - "alignment matters"
+        prerequisites:
+          - "SUBJECT-040"
+        tags:
+          - scanning
+          - dslr
+          - flatbed
+        project: false
+      - id: SUBJECT-042
+        title: "Color Management Basics for Film Scans"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Calibrate monitor and set working color spaces.
+          - Understand ICC profiles and output intents.
+          - Soft-proof for print targets.
+        mental_models:
+          - "closed color loop"
+          - "reference standards"
+        prerequisites:
+          - "SUBJECT-041"
+        tags:
+          - color-management
+          - icc
+          - soft-proof
+        project: false
+      - id: SUBJECT-043
+        title: "Digital Cleanup: Dust, Scratches, and Grain Control"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Remove dust and scratches efficiently.
+          - Balance grain reduction with detail retention.
+          - Use non-destructive layers and masks.
+        mental_models:
+          - "signal preservation"
+          - "minimum effective dose"
+        prerequisites:
+          - "SUBJECT-042"
+        tags:
+          - retouching
+          - grain
+          - cleanup
+        project: false
+      - id: SUBJECT-044
+        title: "Enlarger Basics: Alignment, Focus, and Negative Carriers"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Align enlarger head, lens, and baseboard.
+          - Choose carriers and glass options.
+          - Focus precisely with grain focusers.
+        mental_models:
+          - "mechanical alignment"
+          - "sharpness chain"
+        prerequisites:
+          - "SUBJECT-043"
+        tags:
+          - enlarger
+          - alignment
+          - sharpness
+        project: false
+      - id: SUBJECT-045
+        title: "Paper Types: RC vs Fiber and Contrast Grades"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Select RC vs fiber based on workflow and look.
+          - Use graded vs variable contrast papers.
+          - Handle papers to avoid fog and damage.
+        mental_models:
+          - "materials matter"
+          - "cost-benefit analysis"
+        prerequisites:
+          - "SUBJECT-044"
+        tags:
+          - paper
+          - darkroom
+          - materials
+        project: false
+      - id: SUBJECT-046
+        title: "Test Strips, Exposure, and Contrast Control"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create and read test strips effectively.
+          - Balance exposure and contrast with filters.
+          - Record print recipes for repeatability.
+        mental_models:
+          - "iterative refinement"
+          - "recipe logging"
+        prerequisites:
+          - "SUBJECT-045"
+        tags:
+          - printing
+          - test-strips
+          - contrast
+        project: false
+      - id: SUBJECT-047
+        title: "Dodging and Burning for Tonal Balance"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Shape local contrast using dodge/burn tools.
+          - Use masks and templates for consistency.
+          - Avoid halos and artifacts.
+        mental_models:
+          - "local vs global control"
+          - "edge awareness"
+        prerequisites:
+          - "SUBJECT-046"
+        tags:
+          - darkroom
+          - dodging
+          - burning
+        project: false
+      - id: SUBJECT-048
+        title: "Project: Make Your First B&W Darkroom Print"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Produce a final print from a selected negative.
+          - Document exposure times, filters, and steps.
+          - Evaluate and plan a second iteration.
+        mental_models:
+          - "prototype-print-iterate"
+          - "quality checklist"
+        prerequisites:
+          - "SUBJECT-047"
+        tags:
+          - project
+          - darkroom
+          - printing
+        project: true
+  - id: M6
+    title: "Color Negative and Slide Film Fundamentals"
+    lessons:
+      - id: SUBJECT-049
+        title: "Color Theory for Film: Emulsions and Light"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Describe how dye layers capture color.
+          - Predict color casts from light sources.
+          - Choose film for mixed light scenarios.
+        mental_models:
+          - "additive vs subtractive"
+          - "white balance as filtration"
+        prerequisites:
+          - "SUBJECT-048"
+        tags:
+          - color
+          - film
+          - emulsions
+        project: false
+      - id: SUBJECT-050
+        title: "C-41 Chemistry and Process Steps"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Mix and maintain C-41 chemistry safely.
+          - Execute developer, bleach, fix, and wash steps.
+          - Track replenishment and process control.
+        mental_models:
+          - "process window"
+          - "throughput vs quality"
+        prerequisites:
+          - "SUBJECT-049"
+        tags:
+          - c41
+          - chemistry
+          - color
+        project: false
+      - id: SUBJECT-051
+        title: "Temperature Control: Sous-Vide, Water Baths, and Timing"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Stabilize baths at 38°C and other setpoints.
+          - Use sous-vide and insulation for consistency.
+          - Adjust times for off-spec temperatures safely.
+        mental_models:
+          - "temperature as variable"
+          - "control loop"
+        prerequisites:
+          - "SUBJECT-050"
+        tags:
+          - temperature
+          - process
+          - c41
+        project: false
+      - id: SUBJECT-052
+        title: "E-6 Slide Film Process Overview"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Outline first developer, reversal, color developer, and blix steps.
+          - Manage tighter exposure and processing tolerances.
+          - Decide when to home-process vs send to lab.
+        mental_models:
+          - "tolerance stacking"
+          - "risk vs reward"
+        prerequisites:
+          - "SUBJECT-051"
+        tags:
+          - e6
+          - slide
+          - process
+        project: false
+      - id: SUBJECT-053
+        title: "Push and Pull Processing: When and How"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plan push/pull for both B&W and color.
+          - Predict changes in contrast, grain, and color.
+          - Communicate push/pull to labs or adjust DIY times.
+        mental_models:
+          - "knob turning"
+          - "trade-off ledger"
+        prerequisites:
+          - "SUBJECT-052"
+        tags:
+          - push-pull
+          - exposure
+          - development
+        project: false
+      - id: SUBJECT-054
+        title: "Color Correction Filters and White Balance for Film"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use 80A/85B, CC filters, and gels.
+          - Choose filtration vs later correction.
+          - Avoid color crossovers through proper balance.
+        mental_models:
+          - "fix at capture"
+          - "upstream correction"
+        prerequisites:
+          - "SUBJECT-053"
+        tags:
+          - filters
+          - color-balance
+          - gels
+        project: false
+      - id: SUBJECT-055
+        title: "Cross Processing and Creative Color Effects"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Execute C-41 in E-6 and vice versa safely.
+          - Anticipate contrast and color shifts creatively.
+          - Log experiments for reproducibility.
+        mental_models:
+          - "controlled deviation"
+          - "experimental design"
+        prerequisites:
+          - "SUBJECT-054"
+        tags:
+          - creative
+          - cross-process
+          - color
+        project: false
+      - id: SUBJECT-056
+        title: "Troubleshooting C-41 and E-6"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Diagnose color crossover, density issues, and streaks.
+          - Adjust temps and replenishment to correct problems.
+          - Implement quality control strips.
+        mental_models:
+          - "root-cause analysis"
+          - "control charts"
+        prerequisites:
+          - "SUBJECT-055"
+        tags:
+          - troubleshooting
+          - c41
+          - e6
+        project: false
+      - id: SUBJECT-057
+        title: "Project: Develop a C-41 Roll at Home"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Process a color negative roll to completion.
+          - Evaluate color balance and density.
+          - Document process parameters and outcomes.
+        mental_models:
+          - "pilot run"
+          - "continuous improvement"
+        prerequisites:
+          - "SUBJECT-056"
+        tags:
+          - project
+          - c41
+          - color
+        project: true
+  - id: M7
+    title: "Advanced Exposure, Lighting, and Creative Techniques"
+    lessons:
+      - id: SUBJECT-058
+        title: "The Zone System: Metering for B&W Negatives"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Place shadows and highlights using zone placement.
+          - Calibrate meter and development to personal N.
+          - Build a simple zone cheat sheet.
+        mental_models:
+          - "zone system"
+          - "calibration curve"
+        prerequisites:
+          - "SUBJECT-057"
+        tags:
+          - zone-system
+          - metering
+          - bw
+        project: false
+      - id: SUBJECT-059
+        title: "Spot Metering and Placement in the Scene"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use 1° spot meters accurately.
+          - Translate readings into exposure decisions.
+          - Validate placements with test frames.
+        mental_models:
+          - "reference sampling"
+          - "decision mapping"
+        prerequisites:
+          - "SUBJECT-058"
+        tags:
+          - metering
+          - spot
+          - exposure
+        project: false
+      - id: SUBJECT-060
+        title: "High-Contrast Scenes: N- and N+ Development Strategies"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plan contractions/expansions via development changes.
+          - Predict printability of negatives from the field.
+          - Maintain notes linking scene contrast to development.
+        mental_models:
+          - "control knobs"
+          - "scene-to-neg-to-print"
+        prerequisites:
+          - "SUBJECT-059"
+        tags:
+          - development
+          - contrast
+          - bw
+        project: false
+      - id: SUBJECT-061
+        title: "Long Exposures and Reciprocity Failure In Depth"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compute reciprocity-corrected times.
+          - Manage battery, shutter, and film stability.
+          - Use ND filters for creative effects.
+        mental_models:
+          - "time dilation (reciprocity)"
+          - "systems limits"
+        prerequisites:
+          - "SUBJECT-060"
+        tags:
+          - long-exposure
+          - reciprocity
+          - filters
+        project: false
+      - id: SUBJECT-062
+        title: "Advanced Flash with Film: Off-Camera and Sync"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Balance ambient and flash using shutter/aperture/ISO.
+          - Use sync speeds, leaf shutters, and HSS alternatives.
+          - Shape light with modifiers and distance.
+        mental_models:
+          - "ambient-flash balance"
+          - "inverse square law"
+        prerequisites:
+          - "SUBJECT-061"
+        tags:
+          - flash
+          - lighting
+          - sync
+        project: false
+      - id: SUBJECT-063
+        title: "Mixed Lighting: Balancing Tungsten, Daylight, and Flash"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify dominant color temperatures.
+          - Gel lights or lens to harmonize color.
+          - Decide when to embrace vs correct mixed light.
+        mental_models:
+          - "dominant factor"
+          - "upstream correction"
+        prerequisites:
+          - "SUBJECT-062"
+        tags:
+          - mixed-light
+          - gels
+          - color
+        project: false
+      - id: SUBJECT-064
+        title: "Advanced Filters: ND, Graduated ND, and Color Conversion"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Stack and calculate ND densities safely.
+          - Use grads to manage sky/land contrast.
+          - Convert color temps with 80/85 and CC filters.
+        mental_models:
+          - "exposure budgeting"
+          - "layered control"
+        prerequisites:
+          - "SUBJECT-063"
+        tags:
+          - filters
+          - nd
+          - grads
+        project: false
+      - id: SUBJECT-065
+        title: "Multiple Exposures and In-Camera Effects"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plan additive exposures without overexposure.
+          - Use film advance tricks and masks.
+          - Document technique for repeatability.
+        mental_models:
+          - "superposition"
+          - "controlled experimentation"
+        prerequisites:
+          - "SUBJECT-064"
+        tags:
+          - creative
+          - multiple-exposure
+          - technique
+        project: false
+      - id: SUBJECT-066
+        title: "Panoramic and Medium Format Considerations"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Address framing and metering for panoramic formats.
+          - Manage 120 film spacing and camera specifics.
+          - Evaluate lens options for 6x6, 6x7, and wider.
+        mental_models:
+          - "format constraints"
+          - "coverage and vignetting"
+        prerequisites:
+          - "SUBJECT-065"
+        tags:
+          - panoramic
+          - medium-format
+          - cameras
+        project: false
+      - id: SUBJECT-067
+        title: "Project: Creative Techniques Mini-Portfolio"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Combine advanced exposure and filter techniques.
+          - Produce a cohesive mini-series demonstrating control.
+          - Reflect on aesthetic vs technical trade-offs.
+        mental_models:
+          - "constraints breed creativity"
+          - "iteration loops"
+        prerequisites:
+          - "SUBJECT-066"
+        tags:
+          - project
+          - creativity
+          - portfolio
+        project: true
+  - id: M8
+    title: "Advanced Darkroom Printing and Color Management"
+    lessons:
+      - id: SUBJECT-068
+        title: "Enlarger Calibration and Negative Carrier Craft"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Align enlarger stages for corner-to-corner sharpness.
+          - Optimize carriers to reduce flare and Newton rings.
+          - Establish calibration checks before printing.
+        mental_models:
+          - "calibration"
+          - "error budgeting"
+        prerequisites:
+          - "SUBJECT-067"
+        tags:
+          - enlarger
+          - calibration
+          - carriers
+        project: false
+      - id: SUBJECT-069
+        title: "Split-Grade Printing Techniques"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Balance highlights and shadows with dual filters.
+          - Plan exposures using test strips and notes.
+          - Achieve fine local contrast control.
+        mental_models:
+          - "divide and conquer"
+          - "two-pass control"
+        prerequisites:
+          - "SUBJECT-068"
+        tags:
+          - split-grade
+          - printing
+          - contrast
+        project: false
+      - id: SUBJECT-070
+        title: "Fine Control with Variable Contrast Filters"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Interpret paper response to contrast changes.
+          - Combine VC filters with dodging/burning.
+          - Keep consistent tonal intent across prints.
+        mental_models:
+          - "response curves"
+          - "local-global balance"
+        prerequisites:
+          - "SUBJECT-069"
+        tags:
+          - vc-filters
+          - darkroom
+          - tone
+        project: false
+      - id: SUBJECT-071
+        title: "Fiber Paper Printing and Drying Techniques"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Process fiber papers without staining or curl.
+          - Use screens and ferrotyping options.
+          - Flatten and spot prints for presentation.
+        mental_models:
+          - "materials handling"
+          - "end-to-end quality"
+        prerequisites:
+          - "SUBJECT-070"
+        tags:
+          - fiber
+          - drying
+          - presentation
+        project: false
+      - id: SUBJECT-072
+        title: "Toning: Selenium, Sepia, and Split Toning"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Apply toners for permanence and aesthetic shifts.
+          - Sequence bleach and tone for split effects.
+          - Handle and dispose of toners safely.
+        mental_models:
+          - "chemical finishing"
+          - "sequence matters"
+        prerequisites:
+          - "SUBJECT-071"
+        tags:
+          - toning
+          - selenium
+          - sepia
+        project: false
+      - id: SUBJECT-073
+        title: "Archival Processing and Print Permanence"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Meet archival washing targets and residual tests.
+          - Use archival sleeves, mats, and storage.
+          - Document editioning and provenance.
+        mental_models:
+          - "lifecycle thinking"
+          - "risk mitigation"
+        prerequisites:
+          - "SUBJECT-072"
+        tags:
+          - archival
+          - permanence
+          - storage
+        project: false
+      - id: SUBJECT-074
+        title: "RA-4 Color Printing: Process and Setup"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Configure RA-4 chemistry and temperature control.
+          - Expose and process color papers safely.
+          - Create baseline filtration for a target negative.
+        mental_models:
+          - "process windows"
+          - "baseline-first"
+        prerequisites:
+          - "SUBJECT-073"
+        tags:
+          - ra4
+          - color-printing
+          - darkroom
+        project: false
+      - id: SUBJECT-075
+        title: "Color Balance and Filtration in the Darkroom"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Adjust filtration to neutralize casts.
+          - Iterate using small, logged adjustments.
+          - Evaluate under standardized viewing light.
+        mental_models:
+          - "incremental tuning"
+          - "reference viewing"
+        prerequisites:
+          - "SUBJECT-074"
+        tags:
+          - color
+          - filtration
+          - evaluation
+        project: false
+      - id: SUBJECT-076
+        title: "Diagnosing and Fixing Print Problems"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify fog, mottling, and crossover artifacts.
+          - Separate negative issues from printing issues.
+          - Build a corrective action checklist.
+        mental_models:
+          - "fault isolation"
+          - "checklist thinking"
+        prerequisites:
+          - "SUBJECT-075"
+        tags:
+          - troubleshooting
+          - printing
+          - quality
+        project: false
+      - id: SUBJECT-077
+        title: "Project: Advanced B&W Print Suite"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Produce a set of matched B&W prints.
+          - Document full recipes and toning sequences.
+          - Mount and present to archival standards.
+        mental_models:
+          - "series coherence"
+          - "process documentation"
+        prerequisites:
+          - "SUBJECT-076"
+        tags:
+          - project
+          - printing
+          - bw
+        project: true
+  - id: M9
+    title: "Advanced Scanning and Digital-Hybrid Workflow"
+    lessons:
+      - id: SUBJECT-078
+        title: "Advanced Scanning: Wet Mount and ANR Glass"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Set up wet-mount scanning to reduce Newton rings.
+          - Use ANR glass for flatness and sharpness.
+          - Clean and handle to avoid contamination.
+        mental_models:
+          - "optical coupling"
+          - "flatness is sharpness"
+        prerequisites:
+          - "SUBJECT-077"
+        tags:
+          - scanning
+          - wet-mount
+          - anr-glass
+        project: false
+      - id: SUBJECT-079
+        title: "Maximizing Dynamic Range: Curves and Levels"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Map negative densities to optimal tonal range.
+          - Use curves to control midtone contrast precisely.
+          - Protect highlights and shadows when exporting.
+        mental_models:
+          - "tone mapping"
+          - "signal preservation"
+        prerequisites:
+          - "SUBJECT-078"
+        tags:
+          - dynamic-range
+          - editing
+          - curves
+        project: false
+      - id: SUBJECT-080
+        title: "Color Balancing Negatives in Software"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Invert negatives accurately with or without plugins.
+          - Neutralize color casts using reference points.
+          - Create reusable presets for film stocks.
+        mental_models:
+          - "neutral anchor"
+          - "profiling"
+        prerequisites:
+          - "SUBJECT-079"
+        tags:
+          - color
+          - inversion
+          - presets
+        project: false
+      - id: SUBJECT-081
+        title: "Grain, Sharpening, and Noise Trade-offs"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Balance sharpening and denoising for print sizes.
+          - Separate luminance vs chroma noise handling.
+          - Preserve acutance without artifacts.
+        mental_models:
+          - "Pareto 80/20"
+          - "diminishing returns"
+        prerequisites:
+          - "SUBJECT-080"
+        tags:
+          - grain
+          - sharpening
+          - noise
+        project: false
+      - id: SUBJECT-082
+        title: "Stitching and Scanning Medium and Large Formats"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Stitch DSLR scans for high-resolution output.
+          - Maintain registration and color consistency.
+          - Manage file sizes and export strategies.
+        mental_models:
+          - "tiling"
+          - "consistency over scale"
+        prerequisites:
+          - "SUBJECT-081"
+        tags:
+          - stitching
+          - medium-format
+          - large-format
+        project: false
+      - id: SUBJECT-083
+        title: "Non-Destructive Editing Workflow for Film Scans"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use layers, masks, and smart objects effectively.
+          - Create reproducible, reversible edits.
+          - Document edit stacks for handoff.
+        mental_models:
+          - "reversibility"
+          - "modularity"
+        prerequisites:
+          - "SUBJECT-082"
+        tags:
+          - workflow
+          - editing
+          - nondestructive
+        project: false
+      - id: SUBJECT-084
+        title: "Preparing Files for High-Quality Inkjet Printing"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Set resolution, sharpening, and soft proof for target printer.
+          - Choose papers and profiles for desired look.
+          - Export with correct rendering intents.
+        mental_models:
+          - "fit-to-output"
+          - "device profiling"
+        prerequisites:
+          - "SUBJECT-083"
+        tags:
+          - printing
+          - inkjet
+          - profiles
+        project: false
+      - id: SUBJECT-085
+        title: "End-to-End Color Management and Soft Proofing"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build a color-managed pipeline from scan to print.
+          - Evaluate proofs under standard lighting.
+          - Iterate with minimal color drift.
+        mental_models:
+          - "closed loop"
+          - "reference conditions"
+        prerequisites:
+          - "SUBJECT-084"
+        tags:
+          - color-management
+          - soft-proof
+          - workflow
+        project: false
+      - id: SUBJECT-086
+        title: "Project: Exhibition-Quality Color Print from Negative"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Produce a large, color-managed print from a scan.
+          - Document settings and paper choice for reprints.
+          - Evaluate print under standards and refine.
+        mental_models:
+          - "spec-to-output"
+          - "iterate to taste"
+        prerequisites:
+          - "SUBJECT-085"
+        tags:
+          - project
+          - color
+          - print
+        project: true
+  - id: M10
+    title: "Portfolio, Storytelling, and Professional Practice"
+    lessons:
+      - id: SUBJECT-087
+        title: "Visual Storytelling and Sequencing from Negatives"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Sequence images to create narrative flow.
+          - Balance pacing, visual motifs, and variety.
+          - Annotate edits for future revisions.
+        mental_models:
+          - "story arc"
+          - "rhythm and rhyme"
+        prerequisites:
+          - "SUBJECT-086"
+        tags:
+          - storytelling
+          - sequencing
+          - editing
+        project: false
+      - id: SUBJECT-088
+        title: "Building a Cohesive Film Photography Portfolio"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Define a clear artistic statement and niche.
+          - Select and refine 12–20 cohesive works.
+          - Prepare versions for web and print.
+        mental_models:
+          - "positioning"
+          - "minimum viable portfolio"
+        prerequisites:
+          - "SUBJECT-087"
+        tags:
+          - portfolio
+          - curation
+          - presentation
+        project: false
+      - id: SUBJECT-089
+        title: "Making Zines and Photo Books from Film Work"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Choose formats, bindings, and paper stocks.
+          - Lay out pages for flow and printability.
+          - Prepare files for printers or DIY production.
+        mental_models:
+          - "reader journey"
+          - "production constraints"
+        prerequisites:
+          - "SUBJECT-088"
+        tags:
+          - zines
+          - photobooks
+          - publishing
+        project: false
+      - id: SUBJECT-090
+        title: "Presenting and Archiving Negatives and Prints"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Sleeve, label, and catalog negatives professionally.
+          - Mount, mat, and frame prints to archival standards.
+          - Create a disaster recovery plan and backups.
+        mental_models:
+          - "single source of truth"
+          - "redundancy"
+        prerequisites:
+          - "SUBJECT-089"
+        tags:
+          - archival
+          - cataloging
+          - framing
+        project: false
+      - id: SUBJECT-091
+        title: "Ethics, Copyright, and Model Releases"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Understand copyright basics and fair use limits.
+          - Use model/property releases appropriately.
+          - Navigate sensitive subjects respectfully.
+        mental_models:
+          - "rights and responsibilities"
+          - "informed consent"
+        prerequisites:
+          - "SUBJECT-090"
+        tags:
+          - ethics
+          - copyright
+          - legal
+        project: false
+      - id: SUBJECT-092
+        title: "Working with Labs, Assistants, and Clients"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Communicate specs and expectations clearly.
+          - Build timelines and budgets for assignments.
+          - Give and receive actionable feedback.
+        mental_models:
+          - "service-level agreements"
+          - "expectation alignment"
+        prerequisites:
+          - "SUBJECT-091"
+        tags:
+          - business
+          - collaboration
+          - clients
+        project: false
+      - id: SUBJECT-093
+        title: "Planning and Budgeting a Long-Term Film Project"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Scope themes, milestones, and constraints.
+          - Budget film, chemistry, lab, and presentation costs.
+          - Create a risk register and mitigation plan.
+        mental_models:
+          - "critical path"
+          - "risk register"
+        prerequisites:
+          - "SUBJECT-092"
+        tags:
+          - planning
+          - budgeting
+          - projects
+        project: false
+      - id: SUBJECT-094
+        title: "Critique: Giving and Receiving Useful Feedback"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Structure critiques to be specific and actionable.
+          - Separate intent from execution in analysis.
+          - Integrate feedback into revisions.
+        mental_models:
+          - "blameless postmortem"
+          - "growth mindset"
+        prerequisites:
+          - "SUBJECT-093"
+        tags:
+          - critique
+          - feedback
+          - iteration
+        project: false
+      - id: SUBJECT-095
+        title: "Capstone Plan: Define Theme, Schedule, and Deliverables"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Finalize a capstone concept and scope.
+          - Build a calendar for shoot, develop, and print/scan.
+          - Define success metrics and presentation format.
+        mental_models:
+          - "backward planning"
+          - "definition of done"
+        prerequisites:
+          - "SUBJECT-094"
+        tags:
+          - capstone
+          - planning
+          - scope
+        project: false
+      - id: SUBJECT-096
+        title: "Capstone Project: Shoot, Develop, and Present a Cohesive Series"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Produce a cohesive series from capture to presentation.
+          - Develop and print or scan to exhibition quality.
+          - Present, reflect, and document the full process.
+        mental_models:
+          - "end-to-end ownership"
+          - "iterate and refine"
+        prerequisites:
+          - "SUBJECT-095"
+        tags:
+          - capstone
+          - project
+          - presentation
+        project: true

@@ -1,0 +1,1818 @@
+subject: microeconomics
+version: "1.0"
+estimated_lessons: 96
+reading_time_per_lesson: 15
+goal: >
+  Become a person who notice the world examples of microeconomics and apply while building business or taking decisions
+outcomes:
+  - Identify and interpret microeconomic forces behind everyday choices and market outcomes.
+  - Apply marginal analysis and opportunity cost to optimize decisions under constraints.
+  - Analyze supply, demand, and elasticity to predict price and quantity changes.
+  - Evaluate consumer choice using utility, budget constraints, and behavioral insights.
+  - Diagnose firm cost structures and use unit economics to guide business models.
+  - Distinguish market structures and design pricing strategies accordingly.
+  - Use game theory to anticipate strategic interactions among competitors and partners.
+  - Address externalities and public goods with market-based and policy tools.
+  - Design incentives and mechanisms under asymmetric information.
+  - Implement data-driven pricing, experimentation, and platform strategies ethically.
+modules:
+  - id: M1
+    title: Foundations of Microeconomic Thinking
+    lessons:
+      - id: MICRO-001
+        title: Introduction to Microeconomics and Everyday Choices
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain what microeconomics studies and why it matters for daily and business decisions.
+          - Distinguish positive vs normative analysis with simple examples.
+          - Identify decisions involving scarcity and trade-offs in your life or venture.
+        mental_models:
+          - Scarcity
+          - Trade-offs
+          - Incentives
+        prerequisites: []
+        tags:
+          - foundations
+          - decisions
+          - business
+        project: false
+      - id: MICRO-002
+        title: Thinking at the Margin
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define marginal benefit and marginal cost.
+          - Apply marginal thinking to optimize small changes in output or effort.
+          - Recognize diminishing returns in real contexts.
+        mental_models:
+          - Marginal analysis
+          - Diminishing returns
+        prerequisites:
+          - MICRO-001
+        tags:
+          - marginal
+          - optimization
+          - decisions
+        project: false
+      - id: MICRO-003
+        title: Opportunity Cost and Trade-offs
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define opportunity cost and compute it in simple scenarios.
+          - Prioritize projects by foregone alternatives.
+          - Avoid common opportunity cost blind spots.
+        mental_models:
+          - Opportunity cost
+          - Cost-benefit thinking
+        prerequisites:
+          - MICRO-001
+        tags:
+          - trade-offs
+          - prioritization
+          - strategy
+        project: false
+      - id: MICRO-004
+        title: Incentives and Human Behavior
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate monetary, social, and moral incentives.
+          - Predict likely responses to changed incentives.
+          - Identify unintended consequences of incentives.
+        mental_models:
+          - Incentive design
+          - Second-order effects
+        prerequisites:
+          - MICRO-001
+        tags:
+          - incentives
+          - behavior
+          - policy
+        project: false
+      - id: MICRO-005
+        title: Sunk Costs and Irreversibility
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish sunk costs from avoidable costs.
+          - Make forward-looking decisions ignoring sunk costs.
+          - Recognize irreversibility and option value.
+        mental_models:
+          - Sunk cost fallacy
+          - Option value
+        prerequisites:
+          - MICRO-002
+          - MICRO-003
+        tags:
+          - costs
+          - decisions
+          - options
+        project: false
+      - id: MICRO-006
+        title: Cost-Benefit Analysis Basics
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Structure a simple cost-benefit analysis.
+          - Identify tangible vs intangible costs and benefits.
+          - Perform sensitivity checks on key assumptions.
+        mental_models:
+          - Cost-benefit analysis
+          - Sensitivity analysis
+        prerequisites:
+            - MICRO-003
+            - MICRO-005
+        tags:
+          - evaluation
+          - analysis
+          - business
+        project: false
+      - id: MICRO-007
+        title: Specialization and Comparative Advantage
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate absolute vs comparative advantage.
+          - Identify gains from trade between individuals or teams.
+          - Allocate tasks to maximize joint output.
+        mental_models:
+          - Comparative advantage
+          - Specialization
+        prerequisites:
+          - MICRO-003
+        tags:
+          - productivity
+          - trade
+          - teams
+        project: false
+      - id: MICRO-008
+        title: Markets and Prices—What Do They Do?
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain how prices coordinate decentralized decisions.
+          - Identify signals and incentives embedded in prices.
+          - Recognize when prices may fail to allocate efficiently.
+        mental_models:
+          - Price as signal
+          - Coordination via markets
+        prerequisites:
+          - MICRO-001
+        tags:
+          - markets
+          - prices
+          - efficiency
+        project: false
+      - id: MICRO-009
+        title: Supply and Demand Basics
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define supply and demand curves and interpret movement vs shift.
+          - Predict direction of price/quantity changes after shocks.
+          - Draw simple supply-demand diagrams.
+        mental_models:
+          - Equilibrium
+          - Comparative statics
+        prerequisites:
+          - MICRO-008
+        tags:
+          - supply
+          - demand
+          - equilibrium
+        project: false
+      - id: MICRO-010
+        title: Using Micro Models with Real Data
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Summarize data with simple descriptive statistics.
+          - Fit a basic linear relationship to demand data.
+          - Interpret patterns to refine hypotheses.
+        mental_models:
+          - Modeling
+          - Fermi estimates
+        prerequisites:
+          - MICRO-009
+        tags:
+          - data
+          - modeling
+          - demand
+        project: false
+  - id: M2
+    title: Supply, Demand, and Market Equilibrium
+    lessons:
+      - id: MICRO-011
+        title: Demand—Determinants and Shifts
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify factors that shift demand.
+          - Separate movement along vs shift of demand.
+          - Diagnose multi-shock scenarios qualitatively.
+        mental_models:
+          - Comparative statics
+          - Substitutes and complements
+        prerequisites:
+          - MICRO-009
+        tags:
+          - demand
+          - shocks
+          - markets
+        project: false
+      - id: MICRO-012
+        title: Supply—Determinants and Shifts
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify factors that shift supply.
+          - Separate movement along vs shift of supply.
+          - Anticipate effects of technology and input costs.
+        mental_models:
+          - Production possibilities
+          - Comparative statics
+        prerequisites:
+          - MICRO-009
+        tags:
+          - supply
+          - costs
+          - technology
+        project: false
+      - id: MICRO-013
+        title: Market Equilibrium and Adjustments
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Determine equilibrium price and quantity.
+          - Explain shortages, surpluses, and price adjustments.
+          - Analyze dynamic adjustments after shocks.
+        mental_models:
+          - Equilibrium
+          - Feedback loops
+        prerequisites:
+          - MICRO-011
+          - MICRO-012
+        tags:
+          - equilibrium
+          - adjustment
+          - dynamics
+        project: false
+      - id: MICRO-014
+        title: Elasticity of Demand
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compute price elasticity of demand.
+          - Relate elasticity to revenue changes.
+          - Identify drivers of elastic vs inelastic demand.
+        mental_models:
+          - Elasticity
+          - Revenue optimization
+        prerequisites:
+          - MICRO-011
+        tags:
+          - elasticity
+          - demand
+          - pricing
+        project: false
+      - id: MICRO-015
+        title: Elasticity of Supply
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define and interpret price elasticity of supply.
+          - Contrast short-run vs long-run elasticities.
+          - Predict bottlenecks and capacity constraints.
+        mental_models:
+          - Elasticity
+          - Capacity constraints
+        prerequisites:
+          - MICRO-012
+        tags:
+          - elasticity
+          - supply
+          - capacity
+        project: false
+      - id: MICRO-016
+        title: Taxes and Subsidies—Incidence and Effects
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Determine statutory vs economic incidence.
+          - Quantify deadweight loss from taxes/subsidies.
+          - Predict incidence using elasticities.
+        mental_models:
+          - Tax incidence
+          - Deadweight loss
+        prerequisites:
+          - MICRO-014
+          - MICRO-015
+        tags:
+          - taxes
+          - policy
+          - welfare
+        project: false
+      - id: MICRO-017
+        title: Price Ceilings and Floors
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Analyze consequences of binding price controls.
+          - Identify shortages, quality reductions, and black markets.
+          - Propose alternatives to achieve policy goals.
+        mental_models:
+          - Rationing
+          - Unintended consequences
+        prerequisites:
+          - MICRO-013
+        tags:
+          - regulation
+          - price-controls
+          - policy
+        project: false
+      - id: MICRO-018
+        title: Consumer and Producer Surplus
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Calculate areas of surplus on a graph.
+          - Relate surplus to willingness to pay and accept.
+          - Evaluate policy impacts on total surplus.
+        mental_models:
+          - Surplus
+          - Welfare analysis
+        prerequisites:
+          - MICRO-013
+        tags:
+          - welfare
+          - surplus
+          - evaluation
+        project: false
+      - id: MICRO-019
+        title: Market Efficiency and Deadweight Loss
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define efficiency and Pareto improvements.
+          - Link distortions to deadweight loss sources.
+          - Prioritize least-distorting interventions.
+        mental_models:
+          - Efficiency frontier
+          - Second-best
+        prerequisites:
+          - MICRO-018
+        tags:
+          - efficiency
+          - welfare
+          - policy
+        project: false
+      - id: MICRO-020
+        title: Short-Run vs Long-Run in Markets
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish short-run constraints vs long-run adjustments.
+          - Predict entry/exit effects on prices and profits.
+          - Anticipate capacity expansion timing.
+        mental_models:
+          - Time horizons
+          - Dynamic adjustment
+        prerequisites:
+          - MICRO-015
+          - MICRO-013
+        tags:
+          - dynamics
+          - capacity
+          - entry-exit
+        project: false
+  - id: M3
+    title: Consumer Choice and Behavioral Insights
+    lessons:
+      - id: MICRO-021
+        title: Preferences and Budget Constraints
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Represent budget constraints and opportunity sets.
+          - Describe preference properties (complete, transitive).
+          - Interpret marginal rate of substitution.
+        mental_models:
+          - Trade-offs
+          - MRS
+        prerequisites:
+          - MICRO-009
+        tags:
+          - consumer
+          - budget
+          - preferences
+        project: false
+      - id: MICRO-022
+        title: Utility and Indifference Curves
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Draw and interpret indifference curves.
+          - Explain utility as an ordinal concept.
+          - Connect utility to choices without cardinal assumptions.
+        mental_models:
+          - Indifference curves
+          - Ordinal utility
+        prerequisites:
+          - MICRO-021
+        tags:
+          - utility
+          - preferences
+          - consumer
+        project: false
+      - id: MICRO-023
+        title: Marginal Utility and Diminishing Returns
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define marginal utility and law of diminishing marginal utility.
+          - Apply equal marginal utility per dollar rule.
+          - Predict changes from price/income variations.
+        mental_models:
+          - Marginal analysis
+          - Equimarginal principle
+        prerequisites:
+          - MICRO-022
+        tags:
+          - utility
+          - marginal
+          - consumer
+        project: false
+      - id: MICRO-024
+        title: Optimal Choice—Utility Maximization
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Solve for optimal bundles given prices and income.
+          - Use MRS=price ratio condition.
+          - Interpret corner solutions.
+        mental_models:
+          - Constrained optimization
+          - Lagrange intuition
+        prerequisites:
+          - MICRO-023
+        tags:
+          - optimization
+          - consumer
+          - choices
+        project: false
+      - id: MICRO-025
+        title: Income and Substitution Effects—Intuition
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate substitution vs income effects.
+          - Explain normal, inferior, and Giffen goods conceptually.
+          - Predict qualitative demand responses.
+        mental_models:
+          - Hicksian vs Marshallian intuition
+          - Substitution effect
+        prerequisites:
+          - MICRO-024
+        tags:
+          - demand
+          - consumer
+          - income-effects
+        project: false
+      - id: MICRO-026
+        title: Behavioral Biases—Loss Aversion and Present Bias
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify loss aversion and present bias in decisions.
+          - Design simple commitment devices.
+          - Anticipate deviations from rational choice.
+        mental_models:
+          - Prospect theory (intuition)
+          - Commitment devices
+        prerequisites:
+          - MICRO-024
+        tags:
+          - behavioral
+          - nudges
+          - biases
+        project: false
+      - id: MICRO-027
+        title: Heuristics, Framing, and Choice Architecture
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Recognize common heuristics and framing effects.
+          - Design defaults and choice sets responsibly.
+          - Test nudges with ethical considerations.
+        mental_models:
+          - Choice architecture
+          - Status quo bias
+        prerequisites:
+          - MICRO-026
+        tags:
+          - behavioral
+          - design
+          - ethics
+        project: false
+      - id: MICRO-028
+        title: Revealed Preference and Demand Estimation—Intro
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Infer preferences from observed choices.
+          - Outline simple demand estimation approaches.
+          - Recognize pitfalls in observational data.
+        mental_models:
+          - Revealed preference
+          - Identification (intuition)
+        prerequisites:
+          - MICRO-024
+          - MICRO-010
+        tags:
+          - demand
+          - data
+          - estimation
+        project: false
+      - id: MICRO-029
+        title: Risk Basics—Expected Value and Attitudes
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compute expected value and variance of simple gambles.
+          - Classify risk preferences and certainty equivalents.
+          - Apply risk considerations to pricing and insurance.
+        mental_models:
+          - Expected value
+          - Risk aversion
+        prerequisites:
+          - MICRO-006
+        tags:
+          - risk
+          - uncertainty
+          - insurance
+        project: false
+      - id: MICRO-030
+        title: Labor-Leisure Trade-off—Household Decisions
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Model time allocation between labor and leisure.
+          - Predict response to wage and tax changes.
+          - Interpret income vs substitution effects on labor.
+        mental_models:
+          - Intertemporal choice (intro)
+          - Substitution vs income effect
+        prerequisites:
+          - MICRO-025
+        tags:
+          - labor
+          - households
+          - incentives
+        project: false
+  - id: M4
+    title: Production, Costs, and Firm Behavior
+    lessons:
+      - id: MICRO-031
+        title: Firms and Production Functions
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define production functions and isoquants.
+          - Distinguish short run vs long run inputs.
+          - Interpret marginal products and technical rate of substitution.
+        mental_models:
+          - Production function
+          - Isoquants
+        prerequisites:
+          - MICRO-020
+        tags:
+          - production
+          - firms
+          - technology
+        project: false
+      - id: MICRO-032
+        title: Short-Run Costs—Fixed and Variable
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate fixed, variable, and total costs.
+          - Compute average and marginal costs in the short run.
+          - Identify cost curves and their shapes.
+        mental_models:
+          - Cost curves
+          - Diminishing returns
+        prerequisites:
+          - MICRO-031
+        tags:
+          - costs
+          - short-run
+          - firms
+        project: false
+      - id: MICRO-033
+        title: Long-Run Costs and Economies of Scale
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain economies and diseconomies of scale.
+          - Relate scale to average cost in the long run.
+          - Anticipate scale effects on industry structure.
+        mental_models:
+          - Economies of scale
+          - Learning effects
+        prerequisites:
+          - MICRO-032
+        tags:
+          - costs
+          - scale
+          - strategy
+        project: false
+      - id: MICRO-034
+        title: Marginal Cost and Average Cost in Decision-Making
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Use MC and AVC/ATC to guide output decisions.
+          - Identify profit-maximizing output level.
+          - Recognize shutdown conditions.
+        mental_models:
+          - Marginal analysis
+          - Unit economics
+        prerequisites:
+          - MICRO-032
+        tags:
+          - costs
+          - pricing
+          - output
+        project: false
+      - id: MICRO-035
+        title: Diminishing Marginal Returns in Production
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify diminishing returns in input-output data.
+          - Optimize input use at the margin.
+          - Avoid overinvestment in constrained factors.
+        mental_models:
+          - Bottlenecks
+          - Law of diminishing returns
+        prerequisites:
+          - MICRO-031
+        tags:
+          - production
+          - inputs
+          - optimization
+        project: false
+      - id: MICRO-036
+        title: Profit, Revenue, and Break-Even Analysis
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compute contribution margin and break-even quantity.
+          - Analyze operating leverage and risk.
+          - Prioritize profitable customer segments.
+        mental_models:
+          - Contribution margin
+          - Operating leverage
+        prerequisites:
+          - MICRO-034
+          - MICRO-010
+        tags:
+          - finance
+          - unit-economics
+          - pricing
+        project: false
+      - id: MICRO-037
+        title: Entry, Exit, and Shutdown Decisions
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Evaluate shutdown in the short run vs exit in the long run.
+          - Assess entry feasibility using cost and demand.
+          - Anticipate post-entry price dynamics.
+        mental_models:
+          - Option value
+          - Barriers to entry
+        prerequisites:
+          - MICRO-033
+          - MICRO-036
+        tags:
+          - entry
+          - exit
+          - strategy
+        project: false
+      - id: MICRO-038
+        title: Investment and Irreversibility—Intro
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Recognize real options in investment timing.
+          - Evaluate partial-commitment strategies.
+          - Incorporate uncertainty into go/no-go decisions.
+        mental_models:
+          - Real options
+          - Path dependence
+        prerequisites:
+          - MICRO-005
+          - MICRO-033
+        tags:
+          - investment
+          - uncertainty
+          - options
+        project: false
+      - id: MICRO-039
+        title: Productivity, Technology, and Learning Curves
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Measure productivity and learning effects.
+          - Forecast cost declines with cumulative output.
+          - Plan pricing with learning-by-doing.
+        mental_models:
+          - Experience curve
+          - Scale learning
+        prerequisites:
+          - MICRO-033
+        tags:
+          - productivity
+          - learning
+          - costs
+        project: false
+      - id: MICRO-040
+        title: Measuring and Using Unit Economics
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Calculate CAC, LTV, and payback periods.
+          - Link unit economics to sustainable growth decisions.
+          - Identify levers to improve LTV/CAC ratio.
+        mental_models:
+          - LTV/CAC
+          - Cohort analysis
+        prerequisites:
+          - MICRO-036
+          - MICRO-039
+        tags:
+          - unit-economics
+          - growth
+          - finance
+        project: true
+  - id: M5
+    title: Market Structures—From Perfect Competition to Monopoly
+    lessons:
+      - id: MICRO-041
+        title: Perfect Competition—Firm and Industry
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Derive firm supply in perfect competition.
+          - Explain zero-profit long-run equilibrium.
+          - Assess efficiency properties of competitive markets.
+        mental_models:
+          - Price-taking
+          - Free entry
+        prerequisites:
+          - MICRO-020
+          - MICRO-034
+        tags:
+          - competition
+          - supply
+          - efficiency
+        project: false
+      - id: MICRO-042
+        title: Monopoly—Sources and Behavior
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify sources of market power.
+          - Determine monopoly pricing and output.
+          - Evaluate welfare effects of monopoly.
+        mental_models:
+          - Market power
+          - Lerner index
+        prerequisites:
+          - MICRO-014
+          - MICRO-034
+        tags:
+          - monopoly
+          - pricing
+          - welfare
+        project: false
+      - id: MICRO-043
+        title: Price Discrimination I—Concepts and Feasibility
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Distinguish first-, second-, and third-degree discrimination.
+          - Assess feasibility and legal constraints.
+          - Estimate revenue uplift potential.
+        mental_models:
+          - Segmentation
+          - Elasticity targeting
+        prerequisites:
+          - MICRO-042
+          - MICRO-014
+        tags:
+          - pricing
+          - segmentation
+          - strategy
+        project: false
+      - id: MICRO-044
+        title: Monopolistic Competition and Product Differentiation
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain differentiated products and free entry equilibrium.
+          - Analyze markups vs variety trade-offs.
+          - Position products to balance cannibalization and coverage.
+        mental_models:
+          - Product variety
+          - Spatial competition
+        prerequisites:
+          - MICRO-041
+          - MICRO-042
+        tags:
+          - differentiation
+          - competition
+          - branding
+        project: false
+      - id: MICRO-045
+        title: Oligopoly Basics—Cournot and Stackelberg Intuition
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Contrast quantity vs leadership competition.
+          - Predict output and price under duopoly models.
+          - Identify capacity commitment as a strategic tool.
+        mental_models:
+          - Strategic substitutes
+          - First-mover advantage
+        prerequisites:
+          - MICRO-041
+          - MICRO-034
+        tags:
+          - oligopoly
+          - strategy
+          - capacity
+        project: false
+      - id: MICRO-046
+        title: Oligopoly Pricing and Collusion
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Describe conditions fostering tacit collusion.
+          - Evaluate antitrust risks and signals.
+          - Design pricing to discourage price wars.
+        mental_models:
+          - Repeated games (intuition)
+          - Trigger strategies
+        prerequisites:
+          - MICRO-045
+        tags:
+          - pricing
+          - collusion
+          - antitrust
+        project: false
+      - id: MICRO-047
+        title: Natural Monopoly and Regulation—Basics
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify natural monopoly cost structures.
+          - Compare rate-of-return vs price-cap regulation.
+          - Assess access pricing and universal service trade-offs.
+        mental_models:
+          - Average cost pricing
+          - Ramsey pricing (intuition)
+        prerequisites:
+          - MICRO-033
+          - MICRO-042
+        tags:
+          - regulation
+          - utilities
+          - pricing
+        project: false
+      - id: MICRO-048
+        title: Dynamic Competition—Entry Deterrence and Predation
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain credible threats vs empty threats.
+          - Evaluate predatory pricing claims.
+          - Use capacity and reputation to deter entry ethically.
+        mental_models:
+          - Commitment
+          - Reputation effects
+        prerequisites:
+          - MICRO-045
+          - MICRO-046
+        tags:
+          - entry
+          - strategy
+          - dynamics
+        project: false
+      - id: MICRO-049
+        title: Innovation, Patents, and Market Power Trade-offs
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Weigh static deadweight loss vs dynamic innovation incentives.
+          - Assess when patents help or hinder welfare.
+          - Plan IP strategy aligned with market structure.
+        mental_models:
+          - Dynamic efficiency
+          - Appropriability
+        prerequisites:
+          - MICRO-042
+          - MICRO-044
+        tags:
+          - innovation
+          - IP
+          - welfare
+        project: false
+      - id: MICRO-050
+        title: Measuring Market Power—Concentration and Lerner Index
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compute HHI and interpret concentration.
+          - Use Lerner index to connect price, cost, and elasticity.
+          - Diagnose competitive constraints beyond concentration.
+        mental_models:
+          - HHI
+          - Critical loss analysis
+        prerequisites:
+          - MICRO-014
+          - MICRO-042
+        tags:
+          - market-power
+          - measurement
+          - antitrust
+        project: false
+  - id: M6
+    title: Pricing, Strategy, and Game Theory
+    lessons:
+      - id: MICRO-051
+        title: Game Theory I—Strategic Form and Best Responses
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Represent games in normal form.
+          - Derive best responses and dominance relations.
+          - Identify iterated dominance outcomes.
+        mental_models:
+          - Strategic interaction
+          - Dominance
+        prerequisites:
+          - MICRO-045
+        tags:
+          - game-theory
+          - strategy
+          - decisions
+        project: false
+      - id: MICRO-052
+        title: Nash Equilibrium and Mixed Strategies—Intro
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Define Nash equilibrium and find pure/mixed equilibria.
+          - Interpret mixed strategies as belief randomization.
+          - Apply to pricing and entry games.
+        mental_models:
+          - Nash equilibrium
+          - Mixed strategies
+        prerequisites:
+          - MICRO-051
+        tags:
+          - game-theory
+          - equilibrium
+          - pricing
+        project: false
+      - id: MICRO-053
+        title: Sequential Games, Commitment, and Credible Threats
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Analyze games in extensive form.
+          - Use backward induction and subgame perfection.
+          - Design commitment devices that shift outcomes.
+        mental_models:
+          - Backward induction
+          - Credibility
+        prerequisites:
+          - MICRO-052
+        tags:
+          - game-theory
+          - commitment
+          - strategy
+        project: false
+      - id: MICRO-054
+        title: Repeated Games and Cooperation
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain how repetition sustains cooperation.
+          - Compare trigger, tit-for-tat, and grim strategies.
+          - Anticipate breakdowns from short-term shocks.
+        mental_models:
+          - Reputation
+          - Folk theorem (intuition)
+        prerequisites:
+          - MICRO-052
+        tags:
+          - cooperation
+          - repeated-games
+          - dynamics
+        project: false
+      - id: MICRO-055
+        title: Bargaining and Negotiation Models
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Analyze bargaining power and outside options.
+          - Apply Nash bargaining solution intuition.
+          - Prepare offers and concessions strategically.
+        mental_models:
+          - BATNA
+          - Surplus splitting
+        prerequisites:
+          - MICRO-051
+        tags:
+          - bargaining
+          - negotiation
+          - surplus
+        project: false
+      - id: MICRO-056
+        title: Screening and Signaling—Asymmetric Information
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Distinguish screening vs signaling mechanisms.
+          - Design menus to induce self-selection.
+          - Evaluate signaling credibility and costs.
+        mental_models:
+          - Signaling
+          - Self-selection
+        prerequisites:
+          - MICRO-043
+          - MICRO-052
+        tags:
+          - information
+          - incentives
+          - pricing
+        project: false
+      - id: MICRO-057
+        title: Adverse Selection and Moral Hazard—Intro
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify hidden information vs hidden action problems.
+          - Propose contracts to mitigate each problem.
+          - Balance risk-sharing and incentives.
+        mental_models:
+          - Principal-agent
+          - Incentive compatibility
+        prerequisites:
+          - MICRO-056
+        tags:
+          - contracts
+          - insurance
+          - incentives
+        project: false
+      - id: MICRO-058
+        title: Pricing Tactics I—Two-Part Tariffs
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Structure access and usage fees to extract surplus.
+          - Target heterogeneous consumers under constraints.
+          - Evaluate fairness and churn risks.
+        mental_models:
+          - Two-part tariff
+          - Surplus extraction
+        prerequisites:
+          - MICRO-043
+          - MICRO-041
+        tags:
+          - pricing
+          - subscriptions
+          - strategy
+        project: false
+      - id: MICRO-059
+        title: Pricing Tactics II—Bundling and Versioning
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare pure vs mixed bundling for revenue gains.
+          - Design product versions for self-selection.
+          - Anticipate cannibalization and switching costs.
+        mental_models:
+          - Bundling
+          - Versioning
+        prerequisites:
+          - MICRO-058
+        tags:
+          - pricing
+          - product
+          - segmentation
+        project: false
+      - id: MICRO-060
+        title: Network Effects and Platform Basics—Intro
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify direct and indirect network effects.
+          - Diagnose chicken-and-egg problems for platforms.
+          - Outline early-stage seeding strategies.
+        mental_models:
+          - Network effects
+          - Critical mass
+        prerequisites:
+          - MICRO-044
+        tags:
+          - platforms
+          - network-effects
+          - growth
+        project: false
+  - id: M7
+    title: Market Failures, Externalities, and Public Goods
+    lessons:
+      - id: MICRO-061
+        title: Externalities—Identification and Measurement
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Distinguish private vs social costs/benefits.
+          - Quantify externalities using simple metrics.
+          - Prioritize high-impact externalities to address.
+        mental_models:
+          - Social marginal cost
+          - Spillovers
+        prerequisites:
+          - MICRO-019
+        tags:
+          - externalities
+          - welfare
+          - policy
+        project: false
+      - id: MICRO-062
+        title: Internalizing Externalities—Taxes, Subsidies, and Permits
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare Pigouvian taxes, subsidies, and cap-and-trade.
+          - Choose instruments under uncertainty and heterogeneity.
+          - Evaluate cost-effectiveness and compliance.
+        mental_models:
+          - Pigouvian remedies
+          - Cap-and-trade
+        prerequisites:
+          - MICRO-061
+        tags:
+          - policy
+          - environment
+          - regulation
+        project: false
+      - id: MICRO-063
+        title: Coase Theorem and Property Rights
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain bargaining solutions with well-defined rights.
+          - Identify transaction costs that block private solutions.
+          - Design institutional fixes to reduce frictions.
+        mental_models:
+          - Coase theorem
+          - Transaction costs
+        prerequisites:
+          - MICRO-061
+        tags:
+          - property-rights
+          - bargaining
+          - institutions
+        project: false
+      - id: MICRO-064
+        title: Public Goods and Collective Action
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Define non-rivalry and non-excludability.
+          - Propose funding and provision mechanisms.
+          - Mitigate free-riding with incentives.
+        mental_models:
+          - Free rider problem
+          - Mechanism design (intuition)
+        prerequisites:
+          - MICRO-019
+        tags:
+          - public-goods
+          - funding
+          - policy
+        project: false
+      - id: MICRO-065
+        title: Common-Pool Resources and the Tragedy of the Commons
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Diagnose overuse problems in shared resources.
+          - Compare quotas, tradable rights, and community governance.
+          - Design monitoring and enforcement strategies.
+        mental_models:
+          - Commons
+          - Enforcement
+        prerequisites:
+          - MICRO-064
+        tags:
+          - resources
+          - governance
+          - sustainability
+        project: false
+      - id: MICRO-066
+        title: Asymmetric Information—Lemons and Signaling
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Analyze market unraveling with adverse selection.
+          - Use credible signals to restore trade.
+          - Apply to used goods, hiring, and marketplaces.
+        mental_models:
+          - Adverse selection
+          - Signaling
+        prerequisites:
+          - MICRO-056
+        tags:
+          - information
+          - markets
+          - signaling
+        project: false
+      - id: MICRO-067
+        title: Antitrust and Competition Policy—Intro
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Summarize goals and tools of antitrust policy.
+          - Assess mergers using HHI and unilateral effects.
+          - Spot exclusionary practices and remedies.
+        mental_models:
+          - Consumer welfare standard
+          - Entry barriers
+        prerequisites:
+          - MICRO-050
+        tags:
+          - antitrust
+          - mergers
+          - policy
+        project: false
+      - id: MICRO-068
+        title: Labor Markets—Supply, Demand, and Wages
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Analyze wage determination with labor supply and demand.
+          - Evaluate minimum wages, unions, and monopsony power.
+          - Understand compensating differentials and sorting.
+        mental_models:
+          - Monopsony
+          - Human capital (intro)
+        prerequisites:
+          - MICRO-013
+          - MICRO-020
+        tags:
+          - labor
+          - wages
+          - policy
+        project: false
+      - id: MICRO-069
+        title: Matching Markets and Market Design—Intro
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain priorities vs stable matching objectives.
+          - Apply deferred acceptance intuition.
+          - Identify constraints in school and job matching.
+        mental_models:
+          - Stable matching
+          - Mechanism trade-offs
+        prerequisites:
+          - MICRO-055
+          - MICRO-064
+        tags:
+          - market-design
+          - matching
+          - allocation
+        project: true
+  - id: M8
+    title: Advanced Topics in Information and Incentives
+    lessons:
+      - id: MICRO-070
+        title: Mechanism Design Fundamentals
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Define incentive compatibility and participation constraints.
+          - Explain revelation principle at a high level.
+          - Recognize trade-offs between efficiency and revenue.
+        mental_models:
+          - IC and IR constraints
+          - Revelation principle (intuition)
+        prerequisites:
+          - MICRO-056
+          - MICRO-064
+        tags:
+          - mechanisms
+          - incentives
+          - design
+        project: false
+      - id: MICRO-071
+        title: Auction Theory I—Private Values and Formats
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Compare first-price, second-price, English, and Dutch auctions.
+          - Derive bidding intuition for risk-neutral bidders.
+          - Choose formats to reduce winner’s curse risk.
+        mental_models:
+          - Revenue equivalence (intuition)
+          - Bid shading
+        prerequisites:
+          - MICRO-052
+          - MICRO-070
+        tags:
+          - auctions
+          - pricing
+          - mechanisms
+        project: false
+      - id: MICRO-072
+        title: Auction Theory II—Common Values and Winner’s Curse
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify common-value environments and inference.
+          - Mitigate winner’s curse with information policies.
+          - Design reserve prices and entry rules.
+        mental_models:
+          - Winner’s curse
+          - Information disclosure
+        prerequisites:
+          - MICRO-071
+        tags:
+          - auctions
+          - information
+          - strategy
+        project: false
+      - id: MICRO-073
+        title: Contract Theory—Moral Hazard and Incentives
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Balance risk-sharing vs effort incentives in contracts.
+          - Use performance-based pay and monitoring judiciously.
+          - Address multitasking and metric gaming risks.
+        mental_models:
+          - Principal-agent
+          - Multitask incentives
+        prerequisites:
+          - MICRO-057
+        tags:
+          - contracts
+          - incentives
+          - governance
+        project: false
+      - id: MICRO-074
+        title: Screening and Menu Design—Advanced
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Construct menus for heterogeneous types.
+          - Enforce self-selection with incentive constraints.
+          - Evaluate distortion at the bottom trade-offs.
+        mental_models:
+          - Second-degree price discrimination
+          - Envelope theorem (intuition)
+        prerequisites:
+          - MICRO-056
+          - MICRO-070
+        tags:
+          - pricing
+          - screening
+          - design
+        project: false
+      - id: MICRO-075
+        title: Signaling in Labor and Education Markets—Advanced
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Analyze separating vs pooling equilibria.
+          - Evaluate credential value vs skill acquisition.
+          - Design credible signals with minimal waste.
+        mental_models:
+          - Signaling equilibrium
+          - Costly signals
+        prerequisites:
+          - MICRO-066
+        tags:
+          - signaling
+          - labor
+          - education
+        project: false
+      - id: MICRO-076
+        title: Dynamic Incentives and Relational Contracts
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use repeated interactions to enforce agreements.
+          - Design bonus and clawback structures.
+          - Anticipate renegotiation and hold-up problems.
+        mental_models:
+          - Relational contracts
+          - Hold-up problem
+        prerequisites:
+          - MICRO-054
+          - MICRO-073
+        tags:
+          - incentives
+          - governance
+          - contracts
+        project: false
+      - id: MICRO-077
+        title: Experimental and Causal Methods for Micro Decisions
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design A/B tests with valid randomization.
+          - Use diff-in-diff and IV at a high level for causal inference.
+          - Avoid common experiment pitfalls and p-hacking.
+        mental_models:
+          - Counterfactuals
+          - Experimental design
+        prerequisites:
+          - MICRO-010
+          - MICRO-028
+        tags:
+          - experimentation
+          - causal-inference
+          - data
+        project: true
+      - id: MICRO-078
+        title: Demand Estimation and Discrete Choice Models—Intro
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Understand logit choice model intuition.
+          - Relate substitution patterns to product strategy.
+          - Connect demand estimates to pricing and assortment.
+        mental_models:
+          - Discrete choice (intuition)
+          - Cross-price elasticity
+        prerequisites:
+          - MICRO-014
+          - MICRO-028
+        tags:
+          - demand
+          - modeling
+          - pricing
+        project: false
+  - id: M9
+    title: Advanced Pricing, Auctions, and Platform Markets
+    lessons:
+      - id: MICRO-079
+        title: Dynamic Pricing and Revenue Management
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify demand variability and capacity constraints.
+          - Implement price calendars and real-time adjustments.
+          - Measure lift vs cannibalization empirically.
+        mental_models:
+          - Intertemporal price discrimination
+          - Inventory control (intuition)
+        prerequisites:
+          - MICRO-058
+          - MICRO-078
+        tags:
+          - pricing
+          - revenue-management
+          - optimization
+        project: true
+      - id: MICRO-080
+        title: Yield Management for Capacity-Constrained Firms
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Segment demand by fare classes or access rules.
+          - Set protection levels and overbooking policies.
+          - Monitor load factors and adjust dynamically.
+        mental_models:
+          - Protection levels
+          - Overbooking trade-offs
+        prerequisites:
+          - MICRO-079
+        tags:
+          - capacity
+          - airlines
+          - inventory
+        project: true
+      - id: MICRO-081
+        title: Price Discrimination III—Data-Driven Targeting and Fairness
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use data to infer elasticities and willingness to pay.
+          - Implement guardrails for fairness and compliance.
+          - Test uplift while managing reputational risk.
+        mental_models:
+          - Uplift modeling
+          - Fairness constraints
+        prerequisites:
+          - MICRO-043
+          - MICRO-077
+        tags:
+          - personalization
+          - ethics
+          - pricing
+        project: false
+      - id: MICRO-082
+        title: Platform Economics—Two-Sided Markets and Chicken-and-Egg
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Map cross-side network effects and feedback loops.
+          - Choose which side to subsidize and how.
+          - Plan sequencing for liquidity and trust.
+        mental_models:
+          - Cross-side elasticity
+          - Seeding strategies
+        prerequisites:
+          - MICRO-060
+        tags:
+          - platforms
+          - network-effects
+          - strategy
+        project: false
+      - id: MICRO-083
+        title: Platform Pricing, Governance, and Interoperability
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design take rates, access fees, and usage pricing.
+          - Set rules to manage quality, fraud, and conflicts.
+          - Evaluate openness, standards, and interoperability.
+        mental_models:
+          - Governance trade-offs
+          - Chicken-and-egg dynamics
+        prerequisites:
+          - MICRO-082
+        tags:
+          - platforms
+          - pricing
+          - governance
+        project: false
+      - id: MICRO-084
+        title: Search, Frictions, and Market Design Applications
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Explain how search frictions distort outcomes.
+          - Use simple matching/search models for design insights.
+          - Reduce friction with information and incentives.
+        mental_models:
+          - Diamond search (intuition)
+          - Matching frictions
+        prerequisites:
+          - MICRO-069
+        tags:
+          - search
+          - frictions
+          - design
+        project: false
+      - id: MICRO-085
+        title: Information Goods, Zero Marginal Cost, and Freemium
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Align pricing with zero marginal cost economics.
+          - Choose between freemium, ad-supported, and subscription.
+          - Optimize paywalls and upgrade paths.
+        mental_models:
+          - Price discrimination
+          - Network externalities
+        prerequisites:
+          - MICRO-059
+          - MICRO-060
+        tags:
+          - digital
+          - pricing
+          - freemium
+        project: false
+      - id: MICRO-086
+        title: Congestion and Queuing Economics
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Diagnose congestion externalities and queues.
+          - Apply congestion pricing and priority rules.
+          - Balance utilization, wait times, and revenue.
+        mental_models:
+          - Queuing trade-offs
+          - Pigouvian pricing
+        prerequisites:
+          - MICRO-062
+        tags:
+          - congestion
+          - operations
+          - pricing
+        project: false
+      - id: MICRO-087
+        title: Algorithmic Pricing, Collusion Risks, and Compliance
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify risks of tacit collusion via algorithms.
+          - Establish compliance and monitoring protocols.
+          - Test pricing algorithms for robustness and fairness.
+        mental_models:
+          - Repeated games
+          - Robust optimization (intuition)
+        prerequisites:
+          - MICRO-046
+          - MICRO-077
+        tags:
+          - algorithms
+          - pricing
+          - compliance
+        project: false
+  - id: M10
+    title: Applied Microeconomics, Policy, and Capstones
+    lessons:
+      - id: MICRO-088
+        title: Cost-Benefit Analysis for Policy and Business—Advanced
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Structure CBA with shadow pricing and discounting.
+          - Incorporate risk, distributional weights, and options.
+          - Communicate recommendations under uncertainty.
+        mental_models:
+          - NPV and discounting
+          - Sensitivity/scenario analysis
+        prerequisites:
+          - MICRO-006
+          - MICRO-019
+        tags:
+          - policy
+          - finance
+          - evaluation
+        project: true
+      - id: MICRO-089
+        title: Environmental and Climate Policy Instruments—Advanced
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Compare carbon taxes, cap-and-trade, and standards.
+          - Address leakage, competitiveness, and equity.
+          - Design MRV and enforcement frameworks.
+        mental_models:
+          - External costs
+          - Instrument choice
+        prerequisites:
+          - MICRO-062
+          - MICRO-086
+        tags:
+          - environment
+          - climate
+          - policy
+        project: false
+      - id: MICRO-090
+        title: Health Care Markets and Incentives
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Analyze adverse selection and moral hazard in health insurance.
+          - Evaluate provider payment models and incentives.
+          - Balance access, quality, and cost.
+        mental_models:
+          - Risk pooling
+          - Provider incentives
+        prerequisites:
+          - MICRO-057
+          - MICRO-066
+        tags:
+          - health
+          - insurance
+          - incentives
+        project: false
+      - id: MICRO-091
+        title: Education, Human Capital, and Signaling Trade-offs
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Distinguish human capital accumulation vs signaling.
+          - Evaluate returns to education and selection concerns.
+          - Design financing and accountability mechanisms.
+        mental_models:
+          - Human capital
+          - Signaling
+        prerequisites:
+          - MICRO-075
+        tags:
+          - education
+          - labor
+          - policy
+        project: false
+      - id: MICRO-092
+        title: Behavioral Interventions and Nudges at Scale
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design scalable nudges with ethical guardrails.
+          - Evaluate heterogeneity and context-dependence.
+          - Integrate nudges with complementary structural changes.
+        mental_models:
+          - Choice architecture
+          - Treatment heterogeneity
+        prerequisites:
+          - MICRO-027
+          - MICRO-077
+        tags:
+          - behavioral
+          - policy
+          - scale
+        project: false
+      - id: MICRO-093
+        title: Industrial Organization in Digital Markets—Antitrust Cases
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Apply market definition and competitive effects to case studies.
+          - Evaluate leveraging, tying, and exclusion theories.
+          - Propose remedies balancing innovation and competition.
+        mental_models:
+          - Market definition
+          - Vertical foreclosure (intuition)
+        prerequisites:
+          - MICRO-050
+          - MICRO-083
+        tags:
+          - antitrust
+          - digital
+          - cases
+        project: false
+      - id: MICRO-094
+        title: Entrepreneurship Economics—Unit Economics to Scaling
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build a scaling plan from validated unit economics.
+          - Choose market entry, positioning, and defensibility.
+          - Align growth with cash flow and capacity.
+        mental_models:
+          - Unit economics
+          - Economies of scale
+        prerequisites:
+          - MICRO-040
+          - MICRO-044
+        tags:
+          - startups
+          - scaling
+          - strategy
+        project: false
+      - id: MICRO-095
+        title: Pricing and Growth Experimentation—A/B to Bandits
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design pricing and growth experiments end-to-end.
+          - Balance exploration and exploitation in rollouts.
+          - Build a governance process for experimentation.
+        mental_models:
+          - Multi-armed bandit (intuition)
+          - Power and MDE
+        prerequisites:
+          - MICRO-077
+          - MICRO-059
+        tags:
+          - experimentation
+          - pricing
+          - growth
+        project: true
+      - id: MICRO-096
+        title: Capstone—Build a Microeconomic Strategy for a New Venture
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Synthesize demand, costs, competition, and incentives into a go-to-market plan.
+          - Justify pricing, platform, and policy choices with evidence.
+          - Present risks, metrics, and contingency strategies.
+        mental_models:
+          - Integrated decision-making
+          - Risk management
+        prerequisites:
+          - MICRO-040
+          - MICRO-079
+          - MICRO-081
+        tags:
+          - capstone
+          - strategy
+          - business
+        project: true

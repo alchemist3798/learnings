@@ -1,0 +1,1777 @@
+subject: fiction-writing
+version: "1.0"
+estimated_lessons: 96
+reading_time_per_lesson: 15
+goal: >
+  Become a well established story writer, who can immerse his readers onto the world he creates
+outcomes:
+  - Articulate core story elements and how they interact to produce reader immersion
+  - Generate compelling premises and translate them into clear story goals and stakes
+  - Craft multi-dimensional characters with distinct voices, needs, and arcs
+  - Employ effective point of view, narrative distance, and voice to shape reader experience
+  - Design coherent plots and structures that escalate tension and deliver satisfying payoffs
+  - Build believable worlds and integrate theme, symbolism, and subtext
+  - Write vivid scenes with strong beats, subtext-rich dialogue, and purposeful description
+  - Manage pacing, setups/payoffs, and multi-POV or nonlinear narratives
+  - Revise at macro and line levels using diagnostic tools and feedback loops
+  - Tailor craft choices to genre expectations while maintaining an authentic voice
+  - Prepare professional submissions, queries, and author platforms
+  - Assemble a polished portfolio ready for publication or further development
+modules:
+  - id: M1
+    title: Foundations of Storytelling
+    lessons:
+      - id: SUBJECT-001
+        title: "What Is a Story? Elements and Reader Promise"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define story and key elements (character, goal, conflict, change)
+          - Identify the reader promise and implied contract
+          - Analyze simple examples to spot story anatomy
+        mental_models:
+          - Story-as-Change
+          - Hook–Conflict–Resolution
+        prerequisites: []
+        tags:
+          - foundations
+          - story-elements
+          - beginner
+        project: false
+      - id: SUBJECT-002
+        title: "Finding and Testing Premises"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Generate multiple premises from prompts and observations
+          - Test for conflict, stakes, and novelty
+          - Refine a premise into a one-sentence logline
+        mental_models:
+          - Hook Triangle
+          - Problem–Desire–Obstacle
+        prerequisites:
+          - SUBJECT-001
+        tags:
+          - ideas
+          - premise
+          - hooks
+        project: false
+      - id: SUBJECT-003
+        title: "Theme and Core Question"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Articulate a story’s thematic contention as a question
+          - Align premise with theme for coherence
+          - Brainstorm scene ideas that express theme
+        mental_models:
+          - Thematic Weave
+          - Question-Answer Arc
+        prerequisites:
+          - SUBJECT-002
+        tags:
+          - theme
+          - cohesion
+          - beginner
+        project: false
+      - id: SUBJECT-004
+        title: "Character Basics: Goal, Stakes, and Conflict"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define protagonist goals and personal stakes
+          - Distinguish internal vs external conflict
+          - Draft a clear story problem statement
+        mental_models:
+          - Character–Goal–Stakes
+          - Try–Fail Cycles
+        prerequisites:
+          - SUBJECT-003
+        tags:
+          - character
+          - conflict
+          - stakes
+        project: false
+      - id: SUBJECT-005
+        title: "Setting the Stage: Time, Place, and Context"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Establish setting that shapes conflict and tone
+          - Use specific details to imply a larger world
+          - Connect setting to character perspective
+        mental_models:
+          - Camera Lens
+          - Iceberg Theory
+        prerequisites:
+          - SUBJECT-004
+        tags:
+          - setting
+          - world
+          - description
+        project: false
+      - id: SUBJECT-006
+        title: "Point of View Overview"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare first, third, and omniscient POVs
+          - Match POV to story goal and theme
+          - Avoid common POV pitfalls
+        mental_models:
+          - Narrative Distance Dial
+          - Unreliable Filter
+        prerequisites:
+          - SUBJECT-005
+        tags:
+          - pov
+          - perspective
+          - beginner
+        project: false
+      - id: SUBJECT-007
+        title: "Voice and Tone Fundamentals"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate author, narrator, and character voice
+          - Adjust diction and rhythm to shape tone
+          - Imitate and adapt voice patterns
+        mental_models:
+          - Voice Palette
+          - Line Energy
+        prerequisites:
+          - SUBJECT-006
+        tags:
+          - voice
+          - tone
+          - style
+        project: false
+      - id: SUBJECT-008
+        title: "Show vs Tell and Sensory Detail"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify telling and revise into showing where impactful
+          - Use concrete sensory detail to deepen immersion
+          - Balance efficiency with vividness
+        mental_models:
+          - Show–Tell Spectrum
+          - Specificity Ladder
+        prerequisites:
+          - SUBJECT-007
+        tags:
+          - prose
+          - showing
+          - sensory
+        project: false
+      - id: SUBJECT-009
+        title: "Scene vs Summary"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Distinguish scene and summary functions
+          - Decide when to dramatize versus condense
+          - Draft a mini-scene and a purposeful summary
+        mental_models:
+          - Scene–Sequel
+          - Exposition Sliding Door
+        prerequisites:
+          - SUBJECT-008
+        tags:
+          - scene
+          - summary
+          - pacing
+        project: false
+      - id: SUBJECT-010
+        title: "Project: 500-Word Micro-Story"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Apply core elements to a complete micro-story
+          - Demonstrate clear POV and focused voice
+          - Reflect on feedback for targeted revision
+        mental_models:
+          - Hook–Conflict–Resolution
+          - Macro-to-Micro Revision
+        prerequisites:
+          - SUBJECT-009
+        tags:
+          - project
+          - microfiction
+          - beginner
+        project: true
+  - id: M2
+    title: Characters and Point of View
+    lessons:
+      - id: SUBJECT-011
+        title: "Wants, Needs, and Misbeliefs"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Separate surface wants from deeper needs
+          - Identify misbeliefs that drive behavior
+          - Map conflict to character psychology
+        mental_models:
+          - Character Diamond
+          - Internal–External Mirror
+        prerequisites:
+          - SUBJECT-010
+        tags:
+          - character
+          - psychology
+          - arcs
+        project: false
+      - id: SUBJECT-012
+        title: "Character Arcs 101"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Outline positive, flat, and negative arcs
+          - Align arc beats with plot milestones
+          - Draft a simple arc blueprint
+        mental_models:
+          - Transformation Arc
+          - Three-Act Structure
+        prerequisites:
+          - SUBJECT-011
+        tags:
+          - arcs
+          - structure
+          - beginner
+        project: false
+      - id: SUBJECT-013
+        title: "Internal vs External Conflict"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Diagnose conflict types in sample scenes
+          - Balance inner turmoil with outer obstacles
+          - Design a scene that interlocks both layers
+        mental_models:
+          - Push–Pull Dynamics
+          - Try–Fail Cycles
+        prerequisites:
+          - SUBJECT-012
+        tags:
+          - conflict
+          - scene
+          - character
+        project: false
+      - id: SUBJECT-014
+        title: "Relationships and Cast Design"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Build a purposeful supporting cast
+          - Use contrasts and foils to reveal theme
+          - Map a relationship change over time
+        mental_models:
+          - Cast Constellation
+          - Web of Relationships
+        prerequisites:
+          - SUBJECT-013
+        tags:
+          - cast
+          - relationships
+          - design
+        project: false
+      - id: SUBJECT-015
+        title: "Antagonists and Antagonistic Forces"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate villain, rival, and system forces
+          - Create credible pressure on the protagonist
+          - Plan meaningful opposition escalations
+        mental_models:
+          - Antagonistic Force
+          - Stakes Ladder
+        prerequisites:
+          - SUBJECT-014
+        tags:
+          - antagonist
+          - stakes
+          - conflict
+        project: false
+      - id: SUBJECT-016
+        title: "POV in Depth: First, Third, Omniscient"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Evaluate tradeoffs among POV types
+          - Control intimacy with narrative distance
+          - Draft a scene in two POVs for effect
+        mental_models:
+          - Narrative Distance Dial
+          - Focalization
+        prerequisites:
+          - SUBJECT-015
+        tags:
+          - pov
+          - intimacy
+          - technique
+        project: false
+      - id: SUBJECT-017
+        title: "Filtering, Free Indirect Style, and Clarity"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Spot and reduce filtering language
+          - Use free indirect style to merge voice and POV
+          - Maintain clarity during emotional beats
+        mental_models:
+          - Deep POV
+          - MRU (Motivation–Reaction Unit)
+        prerequisites:
+          - SUBJECT-016
+        tags:
+          - pov
+          - style
+          - clarity
+        project: false
+      - id: SUBJECT-018
+        title: "Differentiating Character Voices"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Create distinct voices via diction, syntax, and worldview
+          - Use dialogue beats to reveal character
+          - Maintain consistency across scenes
+        mental_models:
+          - Voice Palette
+          - Subtext Signals
+        prerequisites:
+          - SUBJECT-017
+        tags:
+          - dialogue
+          - voice
+          - character
+        project: false
+      - id: SUBJECT-019
+        title: "Dialogue Basics: Purpose, Beats, and Tags"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Write purposeful dialogue that advances story
+          - Balance tags, beats, and action
+          - Avoid on-the-nose exchanges
+        mental_models:
+          - Beat Mapping
+          - Show–Tell Spectrum
+        prerequisites:
+          - SUBJECT-018
+        tags:
+          - dialogue
+          - beats
+          - beginner
+        project: false
+      - id: SUBJECT-020
+        title: "Project: Character-Driven Vignette"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Integrate arc, POV, and dialogue in a cohesive vignette
+          - Demonstrate clear internal and external conflict
+          - Revise for voice consistency
+        mental_models:
+          - Macro-to-Micro Revision
+          - Character–Goal–Stakes
+        prerequisites:
+          - SUBJECT-019
+        tags:
+          - project
+          - character
+          - vignette
+        project: true
+  - id: M3
+    title: Plot and Structure Basics
+    lessons:
+      - id: SUBJECT-021
+        title: "Beginnings and Hooks"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Craft openings that establish promise and tension
+          - Introduce character, context, and question efficiently
+          - Diagnose weak openings and revise
+        mental_models:
+          - Hook Triangle
+          - Reader Empathy Loop
+        prerequisites:
+          - SUBJECT-020
+        tags:
+          - openings
+          - hook
+          - beginner
+        project: false
+      - id: SUBJECT-022
+        title: "Inciting Incident"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define the turning point that disrupts normalcy
+          - Tie inciting events to character agency
+          - Calibrate timing for momentum
+        mental_models:
+          - Disruption Beat
+          - Stakes Ladder
+        prerequisites:
+          - SUBJECT-021
+        tags:
+          - plot
+          - inciting-incident
+          - momentum
+        project: false
+      - id: SUBJECT-023
+        title: "Three-Act Structure Overview"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Map major beats across acts
+          - Place character decisions at structural hinges
+          - Outline a short story with act markers
+        mental_models:
+          - Three-Act Structure
+          - Save the Cat
+        prerequisites:
+          - SUBJECT-022
+        tags:
+          - structure
+          - beats
+          - planning
+        project: false
+      - id: SUBJECT-024
+        title: "Progressive Complications and Try–Fail Cycles"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Design escalating obstacles
+          - Balance wins, losses, and costs
+          - Maintain character agency amid setbacks
+        mental_models:
+          - Try–Fail Cycles
+          - Tension Thermostat
+        prerequisites:
+          - SUBJECT-023
+        tags:
+          - tension
+          - conflict
+          - escalation
+        project: false
+      - id: SUBJECT-025
+        title: "Midpoint and Reversal"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define midpoint functions and revelation
+          - Pivot stakes and deepen commitment
+          - Draft a midpoint scene sketch
+        mental_models:
+          - Mirror Moment
+          - Stakes Ladder
+        prerequisites:
+          - SUBJECT-024
+        tags:
+          - midpoint
+          - reversal
+          - structure
+        project: false
+      - id: SUBJECT-026
+        title: "Rising Tension and Complications"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Maintain momentum through Act II
+          - Interleave subgoals and obstacles
+          - Track pacing with beat maps
+        mental_models:
+          - Beat Sheet
+          - Pacing Levers
+        prerequisites:
+          - SUBJECT-025
+        tags:
+          - pacing
+          - beats
+          - plot
+        project: false
+      - id: SUBJECT-027
+        title: "Climax and Peak Decision"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Design a decisive confrontation
+          - Pay off setups and thematic promises
+          - Preserve agency and consequence
+        mental_models:
+          - Setups–Payoffs
+          - Thematic Weave
+        prerequisites:
+          - SUBJECT-026
+        tags:
+          - climax
+          - payoff
+          - stakes
+        project: false
+      - id: SUBJECT-028
+        title: "Endings and Resolution"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Close plot threads and signal change
+          - Choose open vs closed endings strategically
+          - Deliver an emotionally truthful denouement
+        mental_models:
+          - Echoed Images
+          - Resolution Arc
+        prerequisites:
+          - SUBJECT-027
+        tags:
+          - endings
+          - denouement
+          - cohesion
+        project: false
+      - id: SUBJECT-029
+        title: "Outlining Basics: Snowflake and Beat Sheets"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Experiment with two outlining methods
+          - Convert premise into a beat outline
+          - Iterate outlines based on constraints
+        mental_models:
+          - Snowflake Method
+          - Beat Sheet
+        prerequisites:
+          - SUBJECT-028
+        tags:
+          - outlining
+          - planning
+          - beginner
+        project: false
+      - id: SUBJECT-030
+        title: "Project: Short Story Outline"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Produce a coherent outline with clear beats
+          - Align character arc with plot structure
+          - Gather peer feedback for revision
+        mental_models:
+          - Three-Act Structure
+          - Macro-to-Micro Revision
+        prerequisites:
+          - SUBJECT-029
+        tags:
+          - project
+          - outline
+          - short-story
+        project: true
+  - id: M4
+    title: Scene Craft, Dialogue, and Prose
+    lessons:
+      - id: SUBJECT-031
+        title: "Scene Goals, Conflict, and Outcomes"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define clear scene goals and sources of conflict
+          - End scenes with meaningful changes
+          - Draft a scene beat plan
+        mental_models:
+          - Scene–Sequel
+          - Beat Mapping
+        prerequisites:
+          - SUBJECT-030
+        tags:
+          - scene
+          - conflict
+          - beats
+        project: false
+      - id: SUBJECT-032
+        title: "Sequels: Reaction, Dilemma, Decision"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Balance action with reflective sequels
+          - Link decisions to next scene goals
+          - Maintain internal logic across beats
+        mental_models:
+          - MRU (Motivation–Reaction Unit)
+          - Decision Loops
+        prerequisites:
+          - SUBJECT-031
+        tags:
+          - sequel
+          - pacing
+          - structure
+        project: false
+      - id: SUBJECT-033
+        title: "Vivid Description and Imagery"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Choose telling details that imply context
+          - Use metaphor judiciously for clarity and tone
+          - Avoid cliché and purple prose
+        mental_models:
+          - Specificity Ladder
+          - Image Systems
+        prerequisites:
+          - SUBJECT-032
+        tags:
+          - description
+          - imagery
+          - style
+        project: false
+      - id: SUBJECT-034
+        title: "Dialogue Beats, Action, and Body Language"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Integrate beats to reveal subtext
+          - Replace excess tags with actions
+          - Control rhythm for tension
+        mental_models:
+          - Subtext Signals
+          - Pacing Levers
+        prerequisites:
+          - SUBJECT-033
+        tags:
+          - dialogue
+          - subtext
+          - beats
+        project: false
+      - id: SUBJECT-035
+        title: "Subtext Basics"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify surface vs underlying meanings
+          - Use implication and contrast to convey hidden aims
+          - Practice rewriting on-the-nose lines
+        mental_models:
+          - Iceberg Theory
+          - Negative Space
+        prerequisites:
+          - SUBJECT-034
+        tags:
+          - subtext
+          - dialogue
+          - inference
+        project: false
+      - id: SUBJECT-036
+        title: "Pacing Fundamentals"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Adjust sentence and paragraph rhythm
+          - Vary scene length to manage tension
+          - Diagnose pacing issues with beat audits
+        mental_models:
+          - Pacing Levers
+          - Tension Thermostat
+        prerequisites:
+          - SUBJECT-035
+        tags:
+          - pacing
+          - rhythm
+          - flow
+        project: false
+      - id: SUBJECT-037
+        title: "Detail Selection and Chekhov’s Gun"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Choose details that foreshadow payoffs
+          - Remove redundant or distracting elements
+          - Create a detail–payoff map
+        mental_models:
+          - Chekhov’s Gun
+          - Setups–Payoffs
+        prerequisites:
+          - SUBJECT-036
+        tags:
+          - detail
+          - foreshadowing
+          - payoff
+        project: false
+      - id: SUBJECT-038
+        title: "Style and Clarity: Grammar for Storytellers"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Apply clarity-first sentence strategies
+          - Use punctuation to control emphasis and flow
+          - Identify and fix common style pitfalls
+        mental_models:
+          - Line Energy
+          - Reader Effort Budget
+        prerequisites:
+          - SUBJECT-037
+        tags:
+          - style
+          - grammar
+          - clarity
+        project: false
+      - id: SUBJECT-039
+        title: "Summary, Flashback, and Transitions"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Weave summary and flashback without stalling
+          - Anchor time and place during transitions
+          - Maintain POV integrity across shifts
+        mental_models:
+          - Exposition Sliding Door
+          - Time Anchors
+        prerequisites:
+          - SUBJECT-038
+        tags:
+          - summary
+          - flashback
+          - transitions
+        project: false
+      - id: SUBJECT-040
+        title: "Project: Polished 1,200-Word Story"
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Deliver a complete story with coherent scenes
+          - Demonstrate subtext-aware dialogue and pacing
+          - Revise for clarity and impact
+        mental_models:
+          - Macro-to-Micro Revision
+          - Scene–Sequel
+        prerequisites:
+          - SUBJECT-039
+        tags:
+          - project
+          - short-story
+          - beginner
+        project: true
+  - id: M5
+    title: Worldbuilding, Theme, and Subtext
+    lessons:
+      - id: SUBJECT-041
+        title: "Research Methods for Realism"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plan efficient research with credible sources
+          - Capture authentic detail without overload
+          - Track citations and world notes
+        mental_models:
+          - Research Funnel
+          - Iceberg Theory
+        prerequisites:
+          - SUBJECT-040
+        tags:
+          - research
+          - realism
+          - process
+        project: false
+      - id: SUBJECT-042
+        title: "Worldbuilding Systems: Culture, Economy, Power"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Design systemic forces that shape characters
+          - Create constraints that drive plot
+          - Document world rules visibly and implicitly
+        mental_models:
+          - Worldbuilding Constraints
+          - Systems Thinking
+        prerequisites:
+          - SUBJECT-041
+        tags:
+          - worldbuilding
+          - systems
+          - constraints
+        project: false
+      - id: SUBJECT-043
+        title: "Magic and Technology: Costs and Limits"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Define capabilities and costs to avoid deus ex machina
+          - Build failure modes and tradeoffs
+          - Tie systems to theme and character
+        mental_models:
+          - Hard–Soft Spectrum
+          - Setups–Payoffs
+        prerequisites:
+          - SUBJECT-042
+        tags:
+          - magic
+          - technology
+          - rules
+        project: false
+      - id: SUBJECT-044
+        title: "Theme Integration in Scenes"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Translate theme into scene-level choices
+          - Use conflict outcomes to express meaning
+          - Track thematic echoes across acts
+        mental_models:
+          - Thematic Weave
+          - Echoed Images
+        prerequisites:
+          - SUBJECT-043
+        tags:
+          - theme
+          - scenes
+          - cohesion
+        project: false
+      - id: SUBJECT-045
+        title: "Symbolism and Motif"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Invent symbols that grow with the story
+          - Avoid heavy-handed motif usage
+          - Layer images for resonance
+        mental_models:
+          - Symbol–Motif Chain
+          - Image Systems
+        prerequisites:
+          - SUBJECT-044
+        tags:
+          - symbolism
+          - motif
+          - imagery
+        project: false
+      - id: SUBJECT-046
+        title: "Foreshadowing and Promises"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plant elegant hints without spoiling
+          - Balance surprise with inevitability
+          - Audit promises and payoffs
+        mental_models:
+          - Foreshadowing Ladder
+          - Chekhov’s Gun
+        prerequisites:
+          - SUBJECT-045
+        tags:
+          - foreshadowing
+          - payoff
+          - setup
+        project: false
+      - id: SUBJECT-047
+        title: "Managing Exposition and Backstory"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Deliver context through action and choice
+          - Trim or delay backstory to maintain tension
+          - Use questions to pull readers forward
+        mental_models:
+          - Exposition Sliding Door
+          - Curiosity Gap
+        prerequisites:
+          - SUBJECT-046
+        tags:
+          - exposition
+          - backstory
+          - tension
+        project: false
+      - id: SUBJECT-048
+        title: "Ethical Representation and Sensitivity"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify harmful tropes and avoid caricature
+          - Use research and readers for authenticity
+          - Build respectful complexity in depiction
+        mental_models:
+          - Lens Checking
+          - Reader Empathy Loop
+        prerequisites:
+          - SUBJECT-047
+        tags:
+          - ethics
+          - representation
+          - authenticity
+        project: false
+      - id: SUBJECT-049
+        title: "Emotion Engineering and Reader Affect"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Sequence beats to evoke targeted emotions
+          - Use contrast and pacing to heighten impact
+          - Track emotional arcs alongside plot
+        mental_models:
+          - Affect Arc
+          - Tension Thermostat
+        prerequisites:
+          - SUBJECT-048
+        tags:
+          - emotion
+          - pacing
+          - impact
+        project: false
+      - id: SUBJECT-050
+        title: "Project: Themed World Short (1,500 Words)"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Synthesize world rules, theme, and character arc
+          - Demonstrate ethical and effective exposition
+          - Incorporate foreshadowing with payoffs
+        mental_models:
+          - Worldbuilding Constraints
+          - Thematic Weave
+        prerequisites:
+          - SUBJECT-049
+        tags:
+          - project
+          - worldbuilding
+          - theme
+        project: true
+  - id: M6
+    title: Plotting Systems and Pacing
+    lessons:
+      - id: SUBJECT-051
+        title: "Beyond Three Acts: Alternatives"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare seven-point, kishōtenketsu, and episodic forms
+          - Match structure to genre and premise
+          - Prototype a structure for your current project
+        mental_models:
+          - Structural Fit
+          - Pattern Library
+        prerequisites:
+          - SUBJECT-050
+        tags:
+          - structure
+          - forms
+          - intermediate
+        project: false
+      - id: SUBJECT-052
+        title: "Scene Sequencing and Beats"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Order scenes to maximize tension flow
+          - Track cause and effect across beats
+          - Identify and remove orphan scenes
+        mental_models:
+          - Beat Mapping
+          - Cause–Effect Chain
+        prerequisites:
+          - SUBJECT-051
+        tags:
+          - sequencing
+          - beats
+          - pacing
+        project: false
+      - id: SUBJECT-053
+        title: "Designing Subplots"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create purpose-driven subplots
+          - Interweave subplots with main arc
+          - Time subplot beats for maximum synergy
+        mental_models:
+          - Braid Weave
+          - Setups–Payoffs
+        prerequisites:
+          - SUBJECT-052
+        tags:
+          - subplots
+          - structure
+          - integration
+        project: false
+      - id: SUBJECT-054
+        title: "Managing Multiple POVs"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Assign roles and information control per POV
+          - Balance page-time and voice distinction
+          - Plan POV handoffs to sustain tension
+        mental_models:
+          - Cast Constellation
+          - Narrative Distance Dial
+        prerequisites:
+          - SUBJECT-053
+        tags:
+          - pov
+          - ensemble
+          - tension
+        project: false
+      - id: SUBJECT-055
+        title: "Time Manipulation: Frames and Flashbacks"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use frames to contextualize narrative time
+          - Integrate flashbacks without stalling momentum
+          - Signal time shifts clearly
+        mental_models:
+          - Time Anchors
+          - Exposition Sliding Door
+        prerequisites:
+          - SUBJECT-054
+        tags:
+          - time
+          - flashback
+          - structure
+        project: false
+      - id: SUBJECT-056
+        title: "Escalating Tension and Raising Stakes"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Engineer compounding complications
+          - Convert plot events into personal costs
+          - Track tension curves across chapters
+        mental_models:
+          - Tension Thermostat
+          - Stakes Ladder
+        prerequisites:
+          - SUBJECT-055
+        tags:
+          - stakes
+          - escalation
+          - pacing
+        project: false
+      - id: SUBJECT-057
+        title: "Setups and Payoffs: Weaving the Net"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Plant multi-use setups for layered payoffs
+          - Audit payoff density and timing
+          - Avoid coincidence and contrivance
+        mental_models:
+          - Chekhov’s Gun
+          - Setups–Payoffs
+        prerequisites:
+          - SUBJECT-056
+        tags:
+          - payoff
+          - design
+          - cohesion
+        project: false
+      - id: SUBJECT-058
+        title: "Chaptering, Scene Breaks, and Cliffhangers"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Choose break points that enhance propulsion
+          - Use mini-questions to sustain curiosity
+          - Balance cliffhangers with satisfaction
+        mental_models:
+          - Curiosity Gap
+          - Beat Mapping
+        prerequisites:
+          - SUBJECT-057
+        tags:
+          - chapters
+          - pacing
+          - hooks
+        project: false
+      - id: SUBJECT-059
+        title: "Short vs Long Form Planning"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Adapt planning depth to story length
+          - Manage scope and subplot complexity
+          - Build a flexible roadmap
+        mental_models:
+          - Scope Triangle
+          - Iterative Outlining
+        prerequisites:
+          - SUBJECT-058
+        tags:
+          - planning
+          - scope
+          - forms
+        project: false
+      - id: SUBJECT-060
+        title: "Project: Novella Plan and Sample Chapter"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Produce a beat plan and chapter outline
+          - Draft a sample chapter demonstrating pacing control
+          - Incorporate feedback into a revised plan
+        mental_models:
+          - Beat Sheet
+          - Macro-to-Micro Revision
+        prerequisites:
+          - SUBJECT-059
+        tags:
+          - project
+          - novella
+          - planning
+        project: true
+  - id: M7
+    title: Genre, Voice, and Reader Engagement
+    lessons:
+      - id: SUBJECT-061
+        title: "Genre Contracts and Reader Expectations"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Identify core promises across major genres
+          - Balance innovation with recognizable beats
+          - Draft a genre expectation checklist
+        mental_models:
+          - Genre Contract
+          - Structural Fit
+        prerequisites:
+          - SUBJECT-060
+        tags:
+          - genre
+          - expectations
+          - reader
+        project: false
+      - id: SUBJECT-062
+        title: "Mystery and Suspense Tools"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Construct questions, clues, and red herrings
+          - Control information release for tension
+          - Design reveals that feel earned
+        mental_models:
+          - Suspense vs Surprise
+          - Curiosity Gap
+        prerequisites:
+          - SUBJECT-061
+        tags:
+          - mystery
+          - suspense
+          - tension
+        project: false
+      - id: SUBJECT-063
+        title: "Romance and Relationship Arcs"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Map meet-cute to commitment beats
+          - Balance internal wounds with relational conflict
+          - Avoid coercive tropes and ensure consent
+        mental_models:
+          - Relationship Ladder
+          - Push–Pull Dynamics
+        prerequisites:
+          - SUBJECT-062
+        tags:
+          - romance
+          - relationships
+          - arcs
+        project: false
+      - id: SUBJECT-064
+        title: "Speculative Stakes and World Logic"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Tie world rules to escalating consequences
+          - Ground stakes in personal costs
+          - Maintain logical consistency under pressure
+        mental_models:
+          - Worldbuilding Constraints
+          - Stakes Ladder
+        prerequisites:
+          - SUBJECT-063
+        tags:
+          - speculative
+          - stakes
+          - logic
+        project: false
+      - id: SUBJECT-065
+        title: "Humor, Irony, and Timing"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use setup/payoff for comedic beats
+          - Apply contrast and misdirection
+          - Edit for timing and brevity
+        mental_models:
+          - Rule of Three
+          - Subversion Beat
+        prerequisites:
+          - SUBJECT-064
+        tags:
+          - humor
+          - irony
+          - timing
+        project: false
+      - id: SUBJECT-066
+        title: "Voice Modulation Across Genres"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Adjust sentence-level choices to genre tone
+          - Maintain authentic voice while shifting register
+          - Build a reusable voice style guide
+        mental_models:
+          - Voice Palette
+          - Reader Effort Budget
+        prerequisites:
+          - SUBJECT-065
+        tags:
+          - voice
+          - tone
+          - genre
+        project: false
+      - id: SUBJECT-067
+        title: "Reader Empathy and Identification"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Elicit empathy through specificity and vulnerability
+          - Balance competence with relatability
+          - Track empathy beats across the arc
+        mental_models:
+          - Reader Empathy Loop
+          - Character–Goal–Stakes
+        prerequisites:
+          - SUBJECT-066
+        tags:
+          - empathy
+          - character
+          - engagement
+        project: false
+      - id: SUBJECT-068
+        title: "Openings, Titles, and Blurbs that Hook"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Craft compelling titles and loglines
+          - Write back-cover blurbs that promise payoff
+          - Test hooks with target readers
+        mental_models:
+          - Hook Triangle
+          - Query Funnel
+        prerequisites:
+          - SUBJECT-067
+        tags:
+          - openings
+          - hooks
+          - marketing
+        project: false
+      - id: SUBJECT-069
+        title: "Project: Genre Experiment Short"
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Execute a short in an unfamiliar genre
+          - Satisfy core conventions while innovating
+          - Reflect on voice shifts and reader response
+        mental_models:
+          - Genre Contract
+          - Macro-to-Micro Revision
+        prerequisites:
+          - SUBJECT-068
+        tags:
+          - project
+          - genre
+          - experiment
+        project: true
+  - id: M8
+    title: Advanced Narrative Techniques
+    lessons:
+      - id: SUBJECT-070
+        title: "Unreliable Narrators: Ethics and Execution"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify modes of unreliability and signal control
+          - Balance deception with fair play
+          - Design reveals that reframe meaning
+        mental_models:
+          - Unreliable Filter
+          - Foreshadowing Ladder
+        prerequisites:
+          - SUBJECT-069
+        tags:
+          - unreliable
+          - ethics
+          - reveals
+        project: false
+      - id: SUBJECT-071
+        title: "Nonlinear and Braided Narratives"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan timelines and interleaving strands
+          - Maintain clarity through anchors and motifs
+          - Use order to modulate suspense
+        mental_models:
+          - Braided Narrative
+          - Time Anchors
+        prerequisites:
+          - SUBJECT-070
+        tags:
+          - nonlinear
+          - structure
+          - clarity
+        project: false
+      - id: SUBJECT-072
+        title: "Experimental POV, Second Person, and Hybrids"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Evaluate risks and rewards of unconventional POVs
+          - Maintain immersion with strict constraints
+          - Prototype a short experimental passage
+        mental_models:
+          - Focalization
+          - Reader Effort Budget
+        prerequisites:
+          - SUBJECT-071
+        tags:
+          - pov
+          - experimental
+          - technique
+        project: false
+      - id: SUBJECT-073
+        title: "Advanced Subtext and Strategic Silence"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Engineer gaps that invite reader inference
+          - Layer conflicting signals for complexity
+          - Revise dialogue for high-context communication
+        mental_models:
+          - Iceberg Theory
+          - Negative Space
+        prerequisites:
+          - SUBJECT-072
+        tags:
+          - subtext
+          - dialogue
+          - inference
+        project: false
+      - id: SUBJECT-074
+        title: "Thematic Unity: Image, Plot, and Arc"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build an image system that echoes theme
+          - Align beat outcomes with thematic claims
+          - Track unity with a motif ledger
+        mental_models:
+          - Thematic Weave
+          - Image Systems
+        prerequisites:
+          - SUBJECT-073
+        tags:
+          - theme
+          - unity
+          - motifs
+        project: false
+      - id: SUBJECT-075
+        title: "Managing Large Casts and Ensemble Dynamics"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Assign functions and arcs within ensembles
+          - Keep identities distinct across scenes
+          - Orchestrate group scenes for clarity and tension
+        mental_models:
+          - Cast Constellation
+          - Beat Mapping
+        prerequisites:
+          - SUBJECT-074
+        tags:
+          - ensemble
+          - cast
+          - tension
+        project: false
+      - id: SUBJECT-076
+        title: "Complex Moral Ambiguity and Dilemmas"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design dilemmas without easy answers
+          - Use consequences to drive transformation
+          - Avoid moralizing while signaling values
+        mental_models:
+          - Moral Gray Scale
+          - Decision Loops
+        prerequisites:
+          - SUBJECT-075
+        tags:
+          - morality
+          - dilemmas
+          - character
+        project: false
+      - id: SUBJECT-077
+        title: "Intertextuality, Myth, and Resonance"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Leverage archetypes and allusions thoughtfully
+          - Subvert patterns to create freshness
+          - Build resonance through echoed structures
+        mental_models:
+          - Intertextual Echoes
+          - Pattern Library
+        prerequisites:
+          - SUBJECT-076
+        tags:
+          - myth
+          - archetype
+          - resonance
+        project: false
+      - id: SUBJECT-078
+        title: "Project: Advanced Technique Story"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Execute a story using at least one advanced device
+          - Preserve clarity while innovating
+          - Collect and integrate targeted feedback
+        mental_models:
+          - Macro-to-Micro Revision
+          - Reader Empathy Loop
+        prerequisites:
+          - SUBJECT-077
+        tags:
+          - project
+          - advanced
+          - technique
+        project: true
+  - id: M9
+    title: Revision and Line Craft Mastery
+    lessons:
+      - id: SUBJECT-079
+        title: "Macro Revision Strategies"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Diagnose story-level issues with checklists
+          - Prioritize changes for maximum impact
+          - Create a staged revision plan
+        mental_models:
+          - Macro-to-Micro Revision
+          - Risk–Reward Matrix
+        prerequisites:
+          - SUBJECT-078
+        tags:
+          - revision
+          - strategy
+          - diagnostics
+        project: false
+      - id: SUBJECT-080
+        title: "Scene Audits and Diagnostics"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Evaluate scene purpose and outcomes
+          - Identify flab, repetition, and unclear goals
+          - Create actionable scene notes
+        mental_models:
+          - Scene–Sequel
+          - Beat Mapping
+        prerequisites:
+          - SUBJECT-079
+        tags:
+          - scene
+          - audit
+          - diagnostics
+        project: false
+      - id: SUBJECT-081
+        title: "Deep POV, Filtering Removal, and Intimacy"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Strip filters to increase immediacy
+          - Align diction with character worldview
+          - Maintain clarity during emotional intensity
+        mental_models:
+          - Deep POV
+          - Narrative Distance Dial
+        prerequisites:
+          - SUBJECT-080
+        tags:
+          - pov
+          - intimacy
+          - clarity
+        project: false
+      - id: SUBJECT-082
+        title: "Line Editing for Rhythm and Texture"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Shape sentence variation for effect
+          - Use sound, cadence, and emphasis intentionally
+          - Eliminate filler and optimize word choice
+        mental_models:
+          - Line Energy
+          - Pacing Levers
+        prerequisites:
+          - SUBJECT-081
+        tags:
+          - line-editing
+          - rhythm
+          - style
+        project: false
+      - id: SUBJECT-083
+        title: "Metaphor, Imagery, and Motif Refinement"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Replace clichés with precise images
+          - Build coherent image systems
+          - Tie figurative language to theme and POV
+        mental_models:
+          - Image Systems
+          - Thematic Weave
+        prerequisites:
+          - SUBJECT-082
+        tags:
+          - imagery
+          - metaphor
+          - motif
+        project: false
+      - id: SUBJECT-084
+        title: "Cutting, Condensing, and Restructuring"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Remove redundancies and tighten scenes
+          - Reorder for cause-and-effect clarity
+          - Track changes with version control
+        mental_models:
+          - Kill Your Darlings
+          - Cause–Effect Chain
+        prerequisites:
+          - SUBJECT-083
+        tags:
+          - cutting
+          - structure
+          - efficiency
+        project: false
+      - id: SUBJECT-085
+        title: "Feedback, Critique, and Beta Readers"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Solicit actionable feedback with clear asks
+          - Synthesize conflicting notes into decisions
+          - Build a sustainable critique practice
+        mental_models:
+          - Feedback Ladder
+          - Risk–Reward Matrix
+        prerequisites:
+          - SUBJECT-084
+        tags:
+          - feedback
+          - critique
+          - process
+        project: false
+      - id: SUBJECT-086
+        title: "Sensitivity and Authenticity Review"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Evaluate representation for harm and gaps
+          - Incorporate sensitivity feedback responsibly
+          - Document choices and rationale
+        mental_models:
+          - Lens Checking
+          - Reader Empathy Loop
+        prerequisites:
+          - SUBJECT-085
+        tags:
+          - sensitivity
+          - authenticity
+          - ethics
+        project: false
+      - id: SUBJECT-087
+        title: "Project: Full Short Story Revision"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Perform macro and line passes on a draft
+          - Validate changes with targeted readers
+          - Produce a submission-ready manuscript
+        mental_models:
+          - Macro-to-Micro Revision
+          - Line Energy
+        prerequisites:
+          - SUBJECT-086
+        tags:
+          - project
+          - revision
+          - short-story
+        project: true
+  - id: M10
+    title: Publication, Packaging, and Professional Practice
+    lessons:
+      - id: SUBJECT-088
+        title: "Market Research and Fit"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Identify markets, venues, and audience segments
+          - Match project scope and tone to outlets
+          - Build a submissions target list
+        mental_models:
+          - Query Funnel
+          - Platform Flywheel
+        prerequisites:
+          - SUBJECT-087
+        tags:
+          - market
+          - research
+          - strategy
+        project: false
+      - id: SUBJECT-089
+        title: "Query Letters and Synopses"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Write a compelling query and 1–2 page synopsis
+          - Showcase voice and stakes succinctly
+          - Customize queries for agents/editors
+        mental_models:
+          - Hook Triangle
+          - Query Funnel
+        prerequisites:
+          - SUBJECT-088
+        tags:
+          - query
+          - synopsis
+          - submission
+        project: false
+      - id: SUBJECT-090
+        title: "Pitching, Loglines, and Live Pitches"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Craft punchy loglines for different contexts
+          - Develop a brief verbal pitch
+          - Handle Q&A with confidence
+        mental_models:
+          - Elevator Pitch Frame
+          - Reader Empathy Loop
+        prerequisites:
+          - SUBJECT-089
+        tags:
+          - pitching
+          - logline
+          - networking
+        project: false
+      - id: SUBJECT-091
+        title: "Submission Tracking, Rights, and Contracts"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Track submissions and responses systematically
+          - Understand basic rights and contract terms
+          - Decide when to negotiate or walk away
+        mental_models:
+          - Decision Loops
+          - Risk–Reward Matrix
+        prerequisites:
+          - SUBJECT-090
+        tags:
+          - submissions
+          - rights
+          - contracts
+        project: false
+      - id: SUBJECT-092
+        title: "Self-Publishing Basics"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Compare indie vs traditional paths
+          - Outline production steps and budgets
+          - Plan distribution and metadata
+        mental_models:
+          - Publishing Funnel
+          - Platform Flywheel
+        prerequisites:
+          - SUBJECT-091
+        tags:
+          - self-publishing
+          - production
+          - distribution
+        project: false
+      - id: SUBJECT-093
+        title: "Working with Editors and Cover Designers"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Choose and brief professionals effectively
+          - Interpret editorial letters and prioritize changes
+          - Align cover and copy with genre signals
+        mental_models:
+          - Feedback Ladder
+          - Genre Contract
+        prerequisites:
+          - SUBJECT-092
+        tags:
+          - editing
+          - design
+          - collaboration
+        project: false
+      - id: SUBJECT-094
+        title: "Building an Author Platform"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Select sustainable channels and cadence
+          - Create reader magnets and mailing list flows
+          - Track metrics and iterate
+        mental_models:
+          - Platform Flywheel
+          - Content Pillars
+        prerequisites:
+          - SUBJECT-093
+        tags:
+          - platform
+          - marketing
+          - audience
+        project: false
+      - id: SUBJECT-095
+        title: "Time Management and Creative Habits"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build a realistic writing schedule
+          - Apply habit loops and sprint methods
+          - Prevent burnout with recovery cycles
+        mental_models:
+          - Habit Loop
+          - Time Blocking
+        prerequisites:
+          - SUBJECT-094
+        tags:
+          - productivity
+          - habits
+          - process
+        project: false
+      - id: SUBJECT-096
+        title: "Capstone: Portfolio and Publication Plan"
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Assemble a polished portfolio across lengths and genres
+          - Create a 6–12 month submission and production roadmap
+          - Define next-step learning goals and metrics
+        mental_models:
+          - Query Funnel
+          - Risk–Reward Matrix
+        prerequisites:
+          - SUBJECT-095
+        tags:
+          - project
+          - portfolio
+          - professional
+        project: true

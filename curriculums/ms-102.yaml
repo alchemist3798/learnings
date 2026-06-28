@@ -1,0 +1,1554 @@
+subject: Microsoft 365 Administrator (MS-102)
+version: "1.0"
+estimated_lessons: 96
+reading_time_per_lesson: 15
+goal: >
+  Master Microsoft 365 administration from beginner to advanced.
+outcomes:
+  - Set up and configure a Microsoft 365 tenant aligned to organizational requirements
+  - Administer Microsoft Entra ID identities roles and access controls
+  - Implement secure authentication MFA SSPR and Conditional Access
+  - Configure core services Exchange Online SharePoint OneDrive and Teams
+  - Manage licenses groups administrative units and governance policies
+  - Deploy and manage devices apps and updates with Intune
+  - Implement data protection DLP sensitivity labels and retention
+  - Operate advanced security insider risk and eDiscovery capabilities
+  - Automate administration with PowerShell and Microsoft Graph
+  - Monitor troubleshoot and optimize Microsoft 365 services at scale
+  - Design cross tenant collaboration external sharing and multi geo
+  - Prepare effectively for the MS-102 certification exam
+modules:
+  - id: M1
+    title: Microsoft 365 fundamentals and admin overview
+    lessons:
+      - id: SUBJECT-001
+        title: Program orientation and MS-102 exam scope
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Understand the exam domains and weightings
+          - Set up a personal learning plan and lab environment
+        mental_models:
+          - learning roadmap
+        prerequisites: []
+        tags:
+          - overview
+          - ms-102
+          - orientation
+        project: false
+      - id: SUBJECT-002
+        title: Microsoft 365 value proposition and components
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify Microsoft 365 core services and workloads
+          - Explain benefits of cloud based productivity platforms
+        mental_models:
+          - capability mapping
+        prerequisites: []
+        tags:
+          - fundamentals
+          - services
+          - strategy
+        project: false
+      - id: SUBJECT-003
+        title: Tenant architecture and service boundaries
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Describe tenants regions and service boundaries
+          - Recognize implications for data location and routing
+        mental_models:
+          - layered architecture
+        prerequisites: []
+        tags:
+          - tenant
+          - architecture
+          - regions
+        project: false
+      - id: SUBJECT-004
+        title: Navigating Microsoft 365 admin portals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Navigate Microsoft 365 admin center key blades
+          - Locate workload specific admin portals efficiently
+        mental_models:
+          - wayfinding
+        prerequisites: []
+        tags:
+          - portal
+          - navigation
+          - productivity
+        project: false
+      - id: SUBJECT-005
+        title: Licensing and subscription fundamentals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate Microsoft 365 SKUs and add ons
+          - Map licenses to user and service requirements
+        mental_models:
+          - cost to value
+        prerequisites: []
+        tags:
+          - licensing
+          - subscriptions
+          - planning
+        project: false
+      - id: SUBJECT-006
+        title: Microsoft 365 service descriptions and plans
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Interpret service descriptions and limits
+          - Select plans based on feature requirements
+        mental_models:
+          - decision matrix
+        prerequisites: []
+        tags:
+          - service-limits
+          - plans
+          - comparison
+        project: false
+      - id: SUBJECT-007
+        title: Data residency sovereignty and compliance overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain data residency and sovereignty considerations
+          - Identify compliance frameworks relevant to Microsoft 365
+        mental_models:
+          - risk based approach
+        prerequisites: []
+        tags:
+          - compliance
+          - data-residency
+          - governance
+        project: false
+      - id: SUBJECT-008
+        title: Core security and compliance concepts in Microsoft 365
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Define zero trust principles in Microsoft 365
+          - Recognize shared responsibility across services
+        mental_models:
+          - zero trust
+        prerequisites: []
+        tags:
+          - security
+          - compliance
+          - governance
+        project: false
+      - id: SUBJECT-009
+        title: Role based administration concepts
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Describe RBAC and least privilege principles
+          - Identify common Microsoft 365 admin roles
+        mental_models:
+          - least privilege
+        prerequisites: []
+        tags:
+          - rbac
+          - roles
+          - access
+        project: false
+      - id: SUBJECT-010
+        title: Service health message center and roadmap overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Interpret service health and advisory messages
+          - Plan changes using message center and roadmap
+        mental_models:
+          - operational awareness
+        prerequisites: []
+        tags:
+          - health
+          - change-management
+          - roadmap
+        project: false
+  - id: M2
+    title: Identity and access management basics
+    lessons:
+      - id: SUBJECT-011
+        title: Microsoft Entra ID overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain core directory objects and schema
+          - Describe tenant identity features and editions
+        mental_models:
+          - directory as source of truth
+        prerequisites: []
+        tags:
+          - entra-id
+          - identity
+          - directory
+        project: false
+      - id: SUBJECT-012
+        title: Identity models cloud only hybrid and federated
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare cloud only hybrid and federated models
+          - Choose an identity model based on requirements
+        mental_models:
+          - tradeoff analysis
+        prerequisites: []
+        tags:
+          - identity
+          - hybrid
+          - federation
+        project: false
+      - id: SUBJECT-013
+        title: User accounts basics and profiles
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Create and manage user properties
+          - Understand UPN naming conventions
+        mental_models:
+          - lifecycle thinking
+        prerequisites: []
+        tags:
+          - users
+          - profiles
+          - upn
+        project: false
+      - id: SUBJECT-014
+        title: Group types and membership basics
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Differentiate M365 groups security groups and mail enabled groups
+          - Manage membership and ownership
+        mental_models:
+          - grouping for policy
+        prerequisites: []
+        tags:
+          - groups
+          - membership
+          - governance
+        project: false
+      - id: SUBJECT-015
+        title: Administrative roles and permissions overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Map tasks to built in admin roles
+          - Understand role assignment scope
+        mental_models:
+          - rbac mapping
+        prerequisites: []
+        tags:
+          - roles
+          - permissions
+          - scope
+        project: false
+      - id: SUBJECT-016
+        title: Authentication basics passwords and sign in
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain authentication flows and tokens at a high level
+          - Configure basic sign in settings
+        mental_models:
+          - auth pipeline
+        prerequisites: []
+        tags:
+          - authentication
+          - sign-in
+          - basics
+        project: false
+      - id: SUBJECT-017
+        title: Password policies and protection basics
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Configure password policies and lockout settings
+          - Describe Password Protection capabilities
+        mental_models:
+          - defense in depth
+        prerequisites: []
+        tags:
+          - passwords
+          - policy
+          - protection
+        project: false
+      - id: SUBJECT-018
+        title: Self service password reset fundamentals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Enable and scope SSPR
+          - Configure authentication methods and registration
+        mental_models:
+          - self service
+        prerequisites: []
+        tags:
+          - sspr
+          - authentication
+          - enablement
+        project: false
+      - id: SUBJECT-019
+        title: Multifactor authentication fundamentals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Explain MFA methods and user experience
+          - Enable security defaults or per user MFA
+        mental_models:
+          - step up authentication
+        prerequisites: []
+        tags:
+          - mfa
+          - security
+          - identity
+        project: false
+      - id: SUBJECT-020
+        title: Conditional Access fundamentals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Describe CA building blocks users cloud apps conditions and controls
+          - Interpret common baseline CA policies
+        mental_models:
+          - policy engine
+        prerequisites: []
+        tags:
+          - conditional-access
+          - policies
+          - zero-trust
+        project: false
+  - id: M3
+    title: Tenant setup and core configuration
+    lessons:
+      - id: SUBJECT-021
+        title: Tenant provisioning and baseline configuration
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Create a trial or paid tenant and configure defaults
+          - Apply basic org wide settings for security and privacy
+        mental_models:
+          - secure by default
+        prerequisites: []
+        tags:
+          - tenant
+          - setup
+          - baseline
+        project: false
+      - id: SUBJECT-022
+        title: Custom domains and DNS configuration
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Add verify and configure custom domains
+          - Configure DNS for Exchange and Teams
+        mental_models:
+          - name resolution
+        prerequisites: []
+        tags:
+          - dns
+          - domains
+          - configuration
+        project: false
+      - id: SUBJECT-023
+        title: Organization profile and company branding
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Configure organization details and contact info
+          - Set up company branding for sign in pages
+        mental_models:
+          - user experience first
+        prerequisites: []
+        tags:
+          - branding
+          - organization
+          - admin
+        project: false
+      - id: SUBJECT-024
+        title: Locations time zones language and regional settings
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Set usage locations and time zones
+          - Configure language and regional defaults
+        mental_models:
+          - localization
+        prerequisites: []
+        tags:
+          - settings
+          - localization
+          - governance
+        project: false
+      - id: SUBJECT-025
+        title: Network connectivity requirements overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Identify endpoints ports and URLs for Microsoft 365
+          - Apply connectivity principles for performance
+        mental_models:
+          - path of least resistance
+        prerequisites: []
+        tags:
+          - networking
+          - endpoints
+          - performance
+        project: false
+      - id: SUBJECT-026
+        title: Client apps deployment options overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Compare Microsoft 365 Apps deployment methods
+          - Understand update channels and cadence
+        mental_models:
+          - change cadence
+        prerequisites: []
+        tags:
+          - office-apps
+          - deployment
+          - updates
+        project: false
+      - id: SUBJECT-027
+        title: Service setup wizards and configuration profiles
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Use setup wizards to configure key services
+          - Validate configuration with health checks
+        mental_models:
+          - guided configuration
+        prerequisites: []
+        tags:
+          - setup
+          - wizards
+          - validation
+        project: false
+      - id: SUBJECT-028
+        title: Support help and SLA fundamentals
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Open support requests and manage severity
+          - Interpret SLAs and service credits
+        mental_models:
+          - service management
+        prerequisites: []
+        tags:
+          - support
+          - sla
+          - operations
+        project: false
+      - id: SUBJECT-029
+        title: Monitoring usage reports overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Access usage reports in admin center
+          - Identify adoption and activity trends
+        mental_models:
+          - metrics that matter
+        prerequisites: []
+        tags:
+          - reporting
+          - usage
+          - analytics
+        project: false
+      - id: SUBJECT-030
+        title: Change management and release channels overview
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Plan for release rings and feature rollouts
+          - Communicate change using message center
+        mental_models:
+          - ring based deployment
+        prerequisites: []
+        tags:
+          - change-management
+          - release
+          - adoption
+        project: false
+  - id: M4
+    title: Security and compliance essentials
+    lessons:
+      - id: SUBJECT-031
+        title: Microsoft 365 Defender portal navigation
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Navigate Defender portal areas incidents and hunting
+          - Locate threat protection policies and reports
+        mental_models:
+          - situational awareness
+        prerequisites: []
+        tags:
+          - defender
+          - navigation
+          - security
+        project: false
+      - id: SUBJECT-032
+        title: Microsoft Purview compliance portal navigation
+        difficulty: Beginner
+        estimated_time: 15
+        objectives:
+          - Navigate Purview solutions and reports
+          - Identify key compliance capabilities
+        mental_models:
+          - compliance lens
+        prerequisites: []
+        tags:
+          - purview
+          - compliance
+          - navigation
+        project: false
+      - id: SUBJECT-033
+        title: Threat protection overview across Microsoft 365
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Explain email collaboration and identity threat vectors
+          - Map controls to layers of defense
+        mental_models:
+          - defense in depth
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - security
+          - threats
+          - protection
+        project: false
+      - id: SUBJECT-034
+        title: Defender for Office 365 essentials
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure preset security policies
+          - Review threat explorer and quarantine
+        mental_models:
+          - feedback loop
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - defender
+          - email-security
+          - policies
+        project: false
+      - id: SUBJECT-035
+        title: Safe Links and Safe Attachments basics
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create and scope Safe Links and Safe Attachments policies
+          - Validate effectiveness with reports
+        mental_models:
+          - policy layering
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - safe-links
+          - safe-attachments
+          - protection
+        project: false
+      - id: SUBJECT-036
+        title: Data loss prevention basics in Microsoft 365
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create DLP policies with built in templates
+          - Test and tune with policy tips
+        mental_models:
+          - guardrails over gates
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - dlp
+          - compliance
+          - policies
+        project: false
+      - id: SUBJECT-037
+        title: Sensitivity labels basics and publishing
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Define labels and label policies
+          - Enable labeling in Office apps and services
+        mental_models:
+          - data classification
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - sensitivity-labels
+          - information-protection
+          - purview
+        project: false
+      - id: SUBJECT-038
+        title: Retention policies basics and records
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create retention policies and labels
+          - Understand records and disposition concepts
+        mental_models:
+          - data lifecycle
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - retention
+          - records
+          - governance
+        project: false
+      - id: SUBJECT-039
+        title: Audit search and eDiscovery basics
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Run audit log searches and export results
+          - Create eDiscovery cases holds and exports
+        mental_models:
+          - traceability
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - audit
+          - ediscovery
+          - purview
+        project: false
+      - id: SUBJECT-040
+        title: Alerting dashboards and investigations basics
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure alerts and automated investigations
+          - Interpret dashboards and action items
+        mental_models:
+          - detect triage respond
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - alerts
+          - defender
+          - operations
+        project: false
+  - id: M5
+    title: User group licensing and governance
+    lessons:
+      - id: SUBJECT-041
+        title: User lifecycle management join move leave
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Standardize provisioning and deprovisioning steps
+          - Apply access reviews and offboarding controls
+        mental_models:
+          - lifecycle thinking
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - users
+          - lifecycle
+          - governance
+        project: false
+      - id: SUBJECT-042
+        title: Group governance and naming strategies
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Define naming expiration and guest policies
+          - Use group creation controls and templates
+        mental_models:
+          - policy as product
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - groups
+          - governance
+          - naming
+        project: false
+      - id: SUBJECT-043
+        title: License assignment methods and optimization
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Assign licenses with group based licensing
+          - Optimize cost using service level toggles
+        mental_models:
+          - cost optimization
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - licensing
+          - cost
+          - optimization
+        project: false
+      - id: SUBJECT-044
+        title: Role based access control implementation
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Implement least privilege for admin tasks
+          - Delegate using custom roles where applicable
+        mental_models:
+          - separation of duties
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - rbac
+          - delegation
+          - security
+        project: false
+      - id: SUBJECT-045
+        title: Directory settings naming and classification policies
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure directory level governance settings
+          - Enforce group naming and classification
+        mental_models:
+          - standards enforcement
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - directory
+          - policy
+          - governance
+        project: false
+      - id: SUBJECT-046
+        title: Guest access and external collaboration basics
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Enable B2B collaboration with controls
+          - Govern guest access lifecycle
+        mental_models:
+          - trust but verify
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - b2b
+          - guest-access
+          - external
+        project: false
+      - id: SUBJECT-047
+        title: Dynamic groups and attribute based rules
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Build dynamic membership rules
+          - Validate scoping and impact
+        mental_models:
+          - attributes drive access
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - dynamic-groups
+          - automation
+          - identity
+        project: false
+      - id: SUBJECT-048
+        title: Administrative units delegation and scoping
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create administrative units for geo or function
+          - Delegate admins with scoped permissions
+        mental_models:
+          - segmentation
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - admin-units
+          - delegation
+          - scope
+        project: false
+      - id: SUBJECT-049
+        title: Monitoring usage adoption and change insights
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use adoption score and product usage analytics
+          - Translate insights into enablement actions
+        mental_models:
+          - measure to improve
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - adoption
+          - analytics
+          - reporting
+        project: false
+      - id: SUBJECT-050
+        title: Troubleshooting identity and access scenarios
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Diagnose sign in failures and CA blocks
+          - Use logs and workbooks to isolate issues
+        mental_models:
+          - evidence based troubleshooting
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - troubleshooting
+          - logs
+          - access
+        project: false
+  - id: M6
+    title: Messaging and collaboration administration
+    lessons:
+      - id: SUBJECT-051
+        title: Exchange Online core administration
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Manage mailboxes resource mailboxes and policies
+          - Configure organization mail settings
+        mental_models:
+          - service ownership
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - exchange
+          - mailboxes
+          - policies
+        project: false
+      - id: SUBJECT-052
+        title: SharePoint Online core administration
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create and manage site collections and hubs
+          - Configure sharing and access controls
+        mental_models:
+          - information architecture
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - sharepoint
+          - sites
+          - sharing
+        project: false
+      - id: SUBJECT-053
+        title: OneDrive for Business administration
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure OneDrive policies and storage
+          - Manage sharing sync and retention
+        mental_models:
+          - user centric governance
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - onedrive
+          - storage
+          - governance
+        project: false
+      - id: SUBJECT-054
+        title: Microsoft Teams core administration
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure org wide settings and per team policies
+          - Govern apps meetings and messaging
+        mental_models:
+          - policy driven management
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - teams
+          - policies
+          - governance
+        project: false
+      - id: SUBJECT-055
+        title: Mail flow connectors accepted domains and DKIM
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure accepted domains and connectors
+          - Enable DKIM for outbound protection
+        mental_models:
+          - secure mail routing
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - mail-flow
+          - connectors
+          - dkim
+        project: false
+      - id: SUBJECT-056
+        title: Transport rules anti spam and anti malware policies
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Build mail flow rules for compliance and hygiene
+          - Tune anti spam and anti malware settings
+        mental_models:
+          - hygiene layering
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - transport-rules
+          - anti-spam
+          - anti-malware
+        project: false
+      - id: SUBJECT-057
+        title: SharePoint external sharing policies and governance
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Configure sharing policies by site and organization
+          - Balance security and collaboration needs
+        mental_models:
+          - guardrails over gates
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - sharepoint
+          - sharing
+          - governance
+        project: false
+      - id: SUBJECT-058
+        title: Teams policies meetings messaging and apps
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Manage policy packages and custom policies
+          - Control meeting messaging and app permissions
+        mental_models:
+          - least privilege
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - teams
+          - meetings
+          - apps
+        project: false
+      - id: SUBJECT-059
+        title: Service health alerting and communications workflows
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Set up alerting and service health notifications
+          - Build incident communication playbooks
+        mental_models:
+          - operational playbooks
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - health
+          - alerting
+          - operations
+        project: false
+      - id: SUBJECT-060
+        title: Troubleshooting collaboration services
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Use logs traces and message headers for analysis
+          - Isolate service vs client vs network issues
+        mental_models:
+          - fault isolation
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - troubleshooting
+          - diagnostics
+          - collaboration
+        project: false
+  - id: M7
+    title: Endpoint management with Intune
+    lessons:
+      - id: SUBJECT-061
+        title: Microsoft Intune fundamentals
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Navigate Intune admin center and core objects
+          - Understand platform and enrollment prerequisites
+        mental_models:
+          - management plane
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - intune
+          - endpoints
+          - fundamentals
+        project: false
+      - id: SUBJECT-062
+        title: Device enrollment methods and strategies
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Compare enrollment methods for Windows macOS iOS Android
+          - Choose strategies for corporate and BYOD devices
+        mental_models:
+          - choose by scenario
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - enrollment
+          - byod
+          - strategy
+        project: false
+      - id: SUBJECT-063
+        title: Configuration profiles and settings catalog
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Create configuration profiles and assignments
+          - Validate settings with reports and troubleshoot
+        mental_models:
+          - desired state configuration
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - configuration
+          - profiles
+          - settings
+        project: false
+      - id: SUBJECT-064
+        title: Device compliance policies and actions
+        difficulty: Intermediate
+        estimated_time: 15
+        objectives:
+          - Build compliance policies and remediation actions
+          - Monitor compliance and resolve drift
+        mental_models:
+          - policy drift control
+        prerequisites:
+          - Foundational Microsoft 365 concepts
+        tags:
+          - compliance
+          - devices
+          - remediation
+        project: false
+      - id: SUBJECT-065
+        title: Conditional Access device compliance and session controls
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Enforce CA with device state and session controls
+          - Test break glass and exception handling
+        mental_models:
+          - zero trust enforcement
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - conditional-access
+          - devices
+          - security
+        project: false
+      - id: SUBJECT-066
+        title: App protection policies for mobile and desktop
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Configure app protection without enrollment
+          - Control data transfer and access requirements
+        mental_models:
+          - data centric security
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - app-protection
+          - mam
+          - security
+        project: false
+      - id: SUBJECT-067
+        title: Windows Update for Business rings and feature updates
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design update rings and safeguard holds
+          - Coordinate feature updates with readiness
+        mental_models:
+          - ring based deployment
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - wufb
+          - updates
+          - windows
+        project: false
+      - id: SUBJECT-068
+        title: Windows Autopilot provisioning and lifecycle
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Implement Autopilot profiles and deployment modes
+          - Orchestrate device lifecycle reset and retire
+        mental_models:
+          - lifecycle automation
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - autopilot
+          - provisioning
+          - devices
+        project: false
+      - id: SUBJECT-069
+        title: Endpoint analytics reporting and proactive remediation
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Analyze endpoint score and health metrics
+          - Build proactive remediation scripts
+        mental_models:
+          - continuous improvement
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - analytics
+          - remediation
+          - intune
+        project: false
+  - id: M8
+    title: Advanced security compliance and insider risk
+    lessons:
+      - id: SUBJECT-070
+        title: Identity protection risky users and sign ins
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Configure identity protection policies and notifications
+          - Investigate risky users and sign ins
+        mental_models:
+          - risk scoring
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - identity-protection
+          - risk
+          - security
+        project: false
+      - id: SUBJECT-071
+        title: Privileged Identity Management just in time access
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Enable PIM for roles and groups
+          - Configure approvals access reviews and auditing
+        mental_models:
+          - just in time
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - pim
+          - privileged-access
+          - zero-trust
+        project: false
+      - id: SUBJECT-072
+        title: Defender suite integration and incident management
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Correlate alerts across Defender workloads
+          - Manage incidents with automated response
+        mental_models:
+          - detect respond recover
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - defender
+          - incidents
+          - automation
+        project: false
+      - id: SUBJECT-073
+        title: Insider risk management policies and workflows
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Create insider risk policies and indicators
+          - Triage alerts collaborate and remediate
+        mental_models:
+          - human centered risk
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - insider-risk
+          - purview
+          - governance
+        project: false
+      - id: SUBJECT-074
+        title: Information barriers setup and maintenance
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design segments and communication restrictions
+          - Validate policy outcomes and exceptions
+        mental_models:
+          - partitioning
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - information-barriers
+          - compliance
+          - teams
+        project: false
+      - id: SUBJECT-075
+        title: Advanced eDiscovery collections review and export
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build collections review sets and queries
+          - Manage legal holds and exports securely
+        mental_models:
+          - chain of custody
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - ediscovery
+          - purview
+          - legal
+        project: false
+      - id: SUBJECT-076
+        title: Records management file plan and disposition reviews
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Create file plans retention schedules and labels
+          - Run disposition reviews and proof of deletion
+        mental_models:
+          - records continuum
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - records
+          - retention
+          - governance
+        project: false
+      - id: SUBJECT-077
+        title: Attack simulation training design and rollout
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan and schedule phishing simulations and training
+          - Measure outcomes and improve user resilience
+        mental_models:
+          - behavior change loop
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - training
+          - phishing
+          - defender
+        project: false
+      - id: SUBJECT-078
+        title: Security operations playbooks and standard procedures
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Author and maintain security SOPs and playbooks
+          - Integrate alerts with response workflows
+        mental_models:
+          - automation first
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - secops
+          - playbooks
+          - operations
+        project: false
+  - id: M9
+    title: Advanced messaging collaboration and voice
+    lessons:
+      - id: SUBJECT-079
+        title: Exchange Online hybrid mail flow and coexistence
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan hybrid transport connectors and coexistence
+          - Troubleshoot mail flow and routing issues
+        mental_models:
+          - end to end flow
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - exchange
+          - hybrid
+          - mail-flow
+        project: false
+      - id: SUBJECT-080
+        title: Shared mailboxes resource mailboxes and governance
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Govern shared and resource mailboxes at scale
+          - Apply auditing retention and access policies
+        mental_models:
+          - governance at scale
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - exchange
+          - governance
+          - mailboxes
+        project: false
+      - id: SUBJECT-081
+        title: Advanced transport rules anti spam tuning and DMARC
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Tune anti spam rules and EOP settings
+          - Implement SPF DKIM and DMARC alignment
+        mental_models:
+          - layered hygiene
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - transport
+          - anti-spam
+          - dmarc
+        project: false
+      - id: SUBJECT-082
+        title: SharePoint hub sites architecture and governance
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Design hub site architecture and navigation
+          - Enforce governance and lifecycle controls
+        mental_models:
+          - information architecture
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - sharepoint
+          - hubs
+          - governance
+        project: false
+      - id: SUBJECT-083
+        title: Teams Phone System calling plans and direct routing
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan and configure Teams voice workloads
+          - Validate call quality and emergency calling
+        mental_models:
+          - workload readiness
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - teams
+          - voice
+          - calling
+        project: false
+      - id: SUBJECT-084
+        title: Teams meeting policies compliance recording and retention
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Configure meeting policies and compliance recording
+          - Align retention with legal requirements
+        mental_models:
+          - compliance by design
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - teams
+          - meetings
+          - compliance
+        project: false
+      - id: SUBJECT-085
+        title: Teams SharePoint and OneDrive lifecycle and archival
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Manage lifecycle archival and expiration
+          - Automate provisioning and retirement
+        mental_models:
+          - lifecycle automation
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - lifecycle
+          - teams
+          - sharepoint
+        project: false
+      - id: SUBJECT-086
+        title: Cross tenant collaboration and B2B direct connect
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Configure cross tenant access settings
+          - Enable B2B direct connect scenarios
+        mental_models:
+          - boundary management
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - b2b
+          - cross-tenant
+          - collaboration
+        project: false
+      - id: SUBJECT-087
+        title: Multi geo architecture and administration
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Plan and manage multi geo locations and moves
+          - Align data residency and performance needs
+        mental_models:
+          - geo segmentation
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - multi-geo
+          - data-residency
+          - architecture
+        project: false
+  - id: M10
+    title: Automation reporting and exam preparation
+    lessons:
+      - id: SUBJECT-088
+        title: PowerShell automation for Microsoft 365 administration
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Connect modules and securely store credentials
+          - Script common admin tasks with idempotence
+        mental_models:
+          - automation first
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - powershell
+          - automation
+          - scripting
+        project: false
+      - id: SUBJECT-089
+        title: Microsoft Graph for administrators fundamentals
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use Graph Explorer and app permissions
+          - Query and update directory objects with Graph
+        mental_models:
+          - api mindset
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - graph
+          - api
+          - automation
+        project: false
+      - id: SUBJECT-090
+        title: Automation runbooks and scheduled tasks
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build runbooks with cloud automation
+          - Schedule jobs monitor output and failures
+        mental_models:
+          - job orchestration
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - automation
+          - runbooks
+          - scheduling
+        project: false
+      - id: SUBJECT-091
+        title: Baselines templates and configuration at scale
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Apply security baselines and templates
+          - Enforce configuration with policy and drift reports
+        mental_models:
+          - standardized control sets
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - baselines
+          - configuration
+          - scale
+        project: false
+      - id: SUBJECT-092
+        title: Monitoring and alerting with Defender and service health
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Integrate alerts dashboards and notifications
+          - Build actionable alert rules and routing
+        mental_models:
+          - signal to noise
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - monitoring
+          - alerts
+          - defender
+        project: false
+      - id: SUBJECT-093
+        title: Compliance configuration templates and assessments
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Use compliance manager templates and actions
+          - Track assessments and improvement points
+        mental_models:
+          - control mapping
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - compliance
+          - templates
+          - assessment
+        project: false
+      - id: SUBJECT-094
+        title: Reporting and dashboards with Power BI and usage data
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Connect usage datasets and build reports
+          - Publish dashboards for stakeholders
+        mental_models:
+          - insights to action
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - reporting
+          - power-bi
+          - analytics
+        project: false
+      - id: SUBJECT-095
+        title: Business continuity disaster recovery and incident response
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Develop BCDR and incident response plans
+          - Conduct tabletop exercises and after action reviews
+        mental_models:
+          - resilience engineering
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - bcdr
+          - incident-response
+          - resilience
+        project: false
+      - id: SUBJECT-096
+        title: Exam preparation strategy practice and readiness
+        difficulty: Advanced
+        estimated_time: 15
+        objectives:
+          - Build a final review plan with practice tests
+          - Apply exam taking strategies and time management
+        mental_models:
+          - deliberate practice
+        prerequisites:
+          - Intermediate Microsoft 365 administration
+        tags:
+          - exam
+          - preparation
+          - strategy
+        project: false
