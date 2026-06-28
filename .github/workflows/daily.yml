@@ -1,7 +1,11 @@
-name: Knowledge OS
+name: Knowledge OS Daily
 
 on:
   workflow_dispatch:
+
+  schedule:
+    # 07:30 AM IST (02:00 UTC)
+    - cron: "0 2 * * *"
 
 permissions:
   contents: write
@@ -13,6 +17,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -22,15 +28,15 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -e .
+          pip install .
 
-      - name: Generate Lesson
+      - name: Generate Today's Lesson
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python -m knowledge_os
 
-      - name: Commit Changes
+      - name: Commit Generated Files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
@@ -38,8 +44,8 @@ jobs:
           git add output state/progress.yaml
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes to commit."
           else
-            git commit -m "Daily Knowledge OS"
+            git commit -m "Knowledge OS - Daily lesson"
             git push
           fi
